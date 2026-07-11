@@ -39,7 +39,6 @@ export async function generateMetadata({
     alternates: {
       languages: { en: "/en", fr: "/fr" },
     },
-    icons: { icon: "/logo.png" },
   };
 }
 

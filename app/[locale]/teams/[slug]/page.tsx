@@ -66,7 +66,27 @@ export default async function TeamPage({
           <h2 className="display-title mb-5 mt-12 text-2xl text-white sm:text-3xl">
             {dict.teams.roster}
           </h2>
-          {team.roster.length > 0 ? (
+          {team.squad ? (
+            <Link
+              href={`/${locale}/teams/${team.slug}/squad`}
+              className="group flex items-center justify-between border border-white/10 bg-hc-ink px-6 py-5 transition-colors hover:border-hc-red"
+            >
+              <span>
+                <span className="kicker block text-[0.65rem] text-hc-steel">
+                  {dict.teams.season} {team.squad.season}
+                </span>
+                <span className="display-title mt-1 block text-xl text-white transition-colors group-hover:text-hc-red-bright">
+                  {dict.teams.viewSquad}
+                </span>
+              </span>
+              <span
+                aria-hidden
+                className="text-2xl text-hc-red transition-transform group-hover:translate-x-2"
+              >
+                →
+              </span>
+            </Link>
+          ) : team.roster.length > 0 ? (
             <table className="w-full border-collapse text-sm">
               <thead>
                 <tr className="border-b border-white/20 text-left">

@@ -23,5 +23,50 @@
     ]
   },
   "roster": [],
-  "todo": "Add current roster, coaching staff and recent results"
+  "squad": {
+    "season": "2026",
+    "groups": [
+      {
+        "key": "gk",
+        "label": { "en": "Goalkeepers", "fr": "Gardiennes" },
+        "players": [
+          { "number": 1, "name": null, "position": { "en": "Goalkeeper", "fr": "Gardienne" }, "club": null },
+          { "number": 12, "name": null, "position": { "en": "Goalkeeper", "fr": "Gardienne" }, "club": null }
+        ]
+      },
+      {
+        "key": "wings",
+        "label": { "en": "Wings", "fr": "Ailières" },
+        "players": [
+          { "number": 3, "name": null, "position": { "en": "Left wing", "fr": "Ailière gauche" }, "club": null },
+          { "number": 19, "name": null, "position": { "en": "Left wing", "fr": "Ailière gauche" }, "club": null },
+          { "number": 7, "name": null, "position": { "en": "Right wing", "fr": "Ailière droite" }, "club": null },
+          { "number": 21, "name": null, "position": { "en": "Right wing", "fr": "Ailière droite" }, "club": null }
+        ]
+      },
+      {
+        "key": "backs",
+        "label": { "en": "Backs", "fr": "Arrières" },
+        "players": [
+          { "number": 4, "name": null, "position": { "en": "Left back", "fr": "Arrière gauche" }, "club": null },
+          { "number": 17, "name": null, "position": { "en": "Left back", "fr": "Arrière gauche" }, "club": null },
+          { "number": 5, "name": null, "position": { "en": "Centre back", "fr": "Demi-centre" }, "club": null },
+          { "number": 10, "name": null, "position": { "en": "Centre back", "fr": "Demi-centre" }, "club": null },
+          { "number": 23, "name": null, "position": { "en": "Centre back", "fr": "Demi-centre" }, "club": null },
+          { "number": 8, "name": null, "position": { "en": "Right back", "fr": "Arrière droite" }, "club": null },
+          { "number": 14, "name": null, "position": { "en": "Right back", "fr": "Arrière droite" }, "club": null }
+        ]
+      },
+      {
+        "key": "pivots",
+        "label": { "en": "Pivots", "fr": "Pivots" },
+        "players": [
+          { "number": 6, "name": null, "position": { "en": "Pivot", "fr": "Pivot" }, "club": null },
+          { "number": 9, "name": null, "position": { "en": "Pivot", "fr": "Pivot" }, "club": null },
+          { "number": 15, "name": null, "position": { "en": "Pivot", "fr": "Pivot" }, "club": null }
+        ]
+      }
+    ]
+  },
+  "todo": "Fill squad slots with current player names, clubs and correct jersey numbers; add coaching staff and recent results"
 }

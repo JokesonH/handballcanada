@@ -43,7 +43,9 @@ Some details could not be recovered from the old site (it renders everything cli
 grep -rn '"todo"' content/
 ```
 
-Highlights: exact publication dates on migrated news, current board member names, official contact email/address, past national champions, team rosters, real YouTube video IDs, and website links for the provincial federations.
+Highlights: exact publication dates on migrated news, current board member names, official contact email/address, past national champions, real YouTube video IDs, and website links for the provincial federations.
+
+The senior and beach teams have PSG-style squad pages (`/teams/<slug>/squad`) driven by the `squad` block in their `content/teams/*.json` file. Each entry is a jersey slot — replace `"name": null` with the player's name (and optionally `"club"`) to fill it; cards render "To be announced" until then. Filter groups and position labels are stored per team so the French stays gender-correct.
 
 ## i18n
 

@@ -35,6 +35,25 @@ export type EventItem = {
   todo?: string;
 };
 
+export type SquadPlayer = {
+  number: number;
+  /** null renders as a "to be announced" slot */
+  name: string | null;
+  position: Localized;
+  club: string | null;
+};
+
+export type SquadGroup = {
+  key: string;
+  label: Localized;
+  players: SquadPlayer[];
+};
+
+export type Squad = {
+  season: string;
+  groups: SquadGroup[];
+};
+
 export type TeamItem = {
   slug: string;
   code: string;
@@ -47,6 +66,7 @@ export type TeamItem = {
   program: Localized<string[]>;
   highlight?: Localized;
   roster: { number: number; name: string; position: string; club: string }[];
+  squad?: Squad;
   todo?: string;
 };
 

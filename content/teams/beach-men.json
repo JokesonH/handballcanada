@@ -23,5 +23,32 @@
     ]
   },
   "roster": [],
-  "todo": "Add current beach roster and recent tournament results"
+  "squad": {
+    "season": "2026",
+    "groups": [
+      {
+        "key": "gk",
+        "label": { "en": "Goalkeepers", "fr": "Gardiens" },
+        "players": [
+          { "number": 1, "name": null, "position": { "en": "Goalkeeper", "fr": "Gardien" }, "club": null },
+          { "number": 12, "name": null, "position": { "en": "Goalkeeper", "fr": "Gardien" }, "club": null }
+        ]
+      },
+      {
+        "key": "court",
+        "label": { "en": "Court players", "fr": "Joueurs de champ" },
+        "players": [
+          { "number": 2, "name": null, "position": { "en": "Left wing", "fr": "Ailier gauche" }, "club": null },
+          { "number": 7, "name": null, "position": { "en": "Right wing", "fr": "Ailier droit" }, "club": null },
+          { "number": 5, "name": null, "position": { "en": "Pivot", "fr": "Pivot" }, "club": null },
+          { "number": 9, "name": null, "position": { "en": "Pivot", "fr": "Pivot" }, "club": null },
+          { "number": 4, "name": null, "position": { "en": "Defender", "fr": "Défenseur" }, "club": null },
+          { "number": 8, "name": null, "position": { "en": "Defender", "fr": "Défenseur" }, "club": null },
+          { "number": 10, "name": null, "position": { "en": "Specialist", "fr": "Spécialiste" }, "club": null },
+          { "number": 11, "name": null, "position": { "en": "Specialist", "fr": "Spécialiste" }, "club": null }
+        ]
+      }
+    ]
+  },
+  "todo": "Fill squad slots with current player names, clubs and correct jersey numbers; add recent tournament results"
 }

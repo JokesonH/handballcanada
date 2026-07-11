@@ -21,7 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const newsPaths = getAllNews().map((item) => `/news/${item.slug}`);
-  const teamPaths = getTeams().map((team) => `/teams/${team.slug}`);
+  const teams = getTeams();
+  const teamPaths = [
+    ...teams.map((team) => `/teams/${team.slug}`),
+    ...teams.filter((team) => team.squad).map((team) => `/teams/${team.slug}/squad`),
+  ];
 
   return [...staticPaths, ...newsPaths, ...teamPaths].flatMap((path) =>
     locales.map((locale) => ({

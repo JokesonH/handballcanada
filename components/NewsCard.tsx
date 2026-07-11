@@ -39,6 +39,10 @@ export default function NewsCard({ item, locale, dict, priority }: Props) {
             <span className="absolute left-4 top-4 h-10 w-1 bg-hc-red" aria-hidden />
           </div>
         )}
+        <span
+          aria-hidden
+          className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-700 group-hover:translate-x-full"
+        />
         <span className="kicker absolute bottom-0 left-0 bg-hc-red px-3 py-1.5 text-[0.65rem] text-white">
           {dict.categories[item.category]}
         </span>

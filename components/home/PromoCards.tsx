@@ -19,7 +19,7 @@ export default function PromoCards({ locale, dict }: Props) {
     {
       href: `/${locale}/members`,
       label: dict.nav.findAClub,
-      className: "bg-hc-navy text-white hover:bg-hc-navy-soft",
+      className: "bg-hc-maple text-white hover:bg-hc-maple-soft",
       arrow: "text-hc-red-bright",
     },
     {
@@ -46,7 +46,7 @@ export default function PromoCards({ locale, dict }: Props) {
           {dict.home.getInvolvedSub}
         </p>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <div className="reveal grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {cards.map((card) => (
             <Link
               key={card.href}

@@ -36,9 +36,9 @@ export default async function ArticlePage({
 
   return (
     <>
-      <header className="relative overflow-hidden border-b border-white/10 bg-hc-navy-deep">
+      <header className="grain relative overflow-hidden border-b border-white/10 bg-hc-maple-deep">
         <div
-          className="absolute inset-0 bg-gradient-to-br from-hc-navy/70 via-hc-navy-deep to-hc-night"
+          className="spotlight absolute inset-0 bg-gradient-to-br from-hc-maple/70 via-hc-maple-deep to-hc-night"
           aria-hidden
         />
         <CourtLines className="absolute inset-y-0 right-0 h-full w-[55%] opacity-50" />

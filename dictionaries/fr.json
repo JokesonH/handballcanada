@@ -1,6 +1,7 @@
 {
   "meta": {
     "siteName": "Handball Canada",
+    "official": "Site officiel de la Fédération canadienne de handball olympique",
     "tagline": "L'organisme national directeur du handball au Canada",
     "description": "Handball Canada est la fédération nationale de handball, reconnue par Sport Canada et la Fédération internationale de handball. Nouvelles, équipes nationales, compétitions et comment participer."
   },
@@ -23,6 +24,7 @@
     "domesticCompetitions": "Compétitions nationales"
   },
   "home": {
+    "tickerLabel": "En bref",
     "heroKicker": "À la une",
     "heroCta": "Lire l'article",
     "upcomingEvents": "Événements à venir",

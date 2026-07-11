@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  /* Handball Canada brand */
+  /* Handball Canada — "Arena Night" palette.
+     Flag red + snow white on warm arena black; no navy. */
   --color-hc-red: #eb2c2f;
   --color-hc-red-bright: #ff4045;
   --color-hc-red-dark: #c2181c;
-  --color-hc-navy: #3a4682;
-  --color-hc-navy-soft: #2a3462;
-  --color-hc-navy-deep: #161d42;
-  --color-hc-ink: #0d1230;
-  --color-hc-night: #080b20;
-  --color-hc-ice: #eef0f7;
-  --color-hc-mist: #c3c9df;
-  --color-hc-steel: #858dae;
+  --color-hc-maple: #9e111b;
+  --color-hc-maple-soft: #b81d26;
+  --color-hc-maple-deep: #4f0910;
+  --color-hc-ink: #1a1416;
+  --color-hc-night: #0e0b0c;
+  --color-hc-ice: #f6f3ef;
+  --color-hc-mist: #d9d1cc;
+  --color-hc-steel: #9b8d8a;
 }
 
 @theme inline {
@@ -65,7 +66,7 @@
   font-weight: 700;
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke: 1px rgb(255 255 255 / 0.07);
+  -webkit-text-stroke: 1px rgb(255 255 255 / 0.08);
   user-select: none;
   pointer-events: none;
 }
@@ -76,5 +77,94 @@
   scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
+  }
+}
+
+/* ---------- Atmosphere ---------- */
+
+/* Stadium-light wash: cool overhead beam + warm red glow */
+@utility spotlight {
+  background-image: radial-gradient(
+      55% 60% at 18% -10%,
+      rgb(255 255 255 / 0.09),
+      transparent 60%
+    ),
+    radial-gradient(45% 55% at 85% 0%, rgb(235 44 47 / 0.22), transparent 65%);
+}
+
+/* Film grain over dark surfaces; parent must be positioned */
+@utility grain {
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.22'/%3E%3C/svg%3E");
+  }
+}
+
+/* ---------- Motion ---------- */
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Staggered page-load entrance; set animation-delay inline */
+@utility rise-in {
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@utility marquee-track {
+  animation: marquee 36s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+/* Scroll-linked reveal; progressive (no-ops where unsupported) */
+@keyframes fade-up-scroll {
+  from {
+    opacity: 0;
+    transform: translateY(36px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility reveal {
+  @supports (animation-timeline: view()) {
+    animation: fade-up-scroll both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 45%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise-in,
+  .reveal {
+    animation: none;
+  }
+  .marquee-track {
+    animation-duration: 160s;
   }
 }

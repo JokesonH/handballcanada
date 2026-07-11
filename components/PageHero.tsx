@@ -8,14 +8,14 @@ type Props = {
 };
 
 /**
- * Shared interior-page header: dark navy band with court markings and an
+ * Shared interior-page header: deep maple band with court markings and an
  * oversized display title, echoing the homepage hero.
  */
 export default function PageHero({ kicker, title, subtitle, ghost }: Props) {
   return (
-    <section className="relative overflow-hidden border-b border-white/10 bg-hc-navy-deep">
+    <section className="grain relative overflow-hidden border-b border-white/10 bg-hc-maple-deep">
       <div
-        className="absolute inset-0 bg-gradient-to-br from-hc-navy/70 via-hc-navy-deep to-hc-night"
+        className="spotlight absolute inset-0 bg-gradient-to-br from-hc-maple/70 via-hc-maple-deep to-hc-night"
         aria-hidden
       />
       <CourtLines className="absolute inset-y-0 right-0 h-full w-[55%] opacity-60" />

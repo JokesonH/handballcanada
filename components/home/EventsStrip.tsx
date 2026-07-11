@@ -21,7 +21,7 @@ export default function EventsStrip({ events, locale, dict }: Props) {
           linkLabel={dict.home.allCompetitions}
         />
 
-        <div className="no-scrollbar -mx-4 flex snap-x gap-4 overflow-x-auto px-4 sm:mx-0 sm:px-0 lg:grid lg:grid-cols-3 lg:gap-6">
+        <div className="no-scrollbar reveal -mx-4 flex snap-x gap-4 overflow-x-auto px-4 sm:mx-0 sm:px-0 lg:grid lg:grid-cols-3 lg:gap-6">
           {events.map((event) => (
             <Link
               key={event.id}

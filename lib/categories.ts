@@ -9,15 +9,15 @@ export const categoryStyles: Record<
   { gradient: string; watermark: string }
 > = {
   "national-teams": {
-    gradient: "from-hc-navy via-hc-navy-deep to-hc-night",
+    gradient: "from-hc-maple via-hc-maple-deep to-hc-night",
     watermark: "CAN",
   },
   beach: {
-    gradient: "from-hc-red-dark via-hc-navy-deep to-hc-night",
+    gradient: "from-hc-red-dark via-hc-maple-deep to-hc-night",
     watermark: "BEACH",
   },
   federation: {
-    gradient: "from-hc-navy-soft via-hc-ink to-hc-night",
+    gradient: "from-hc-ink via-hc-maple-deep to-hc-night",
     watermark: "HC",
   },
   competitions: {
@@ -25,7 +25,7 @@ export const categoryStyles: Record<
     watermark: "CUP",
   },
   development: {
-    gradient: "from-hc-navy via-hc-ink to-hc-night",
+    gradient: "from-hc-maple via-hc-ink to-hc-night",
     watermark: "DEV",
   },
 };

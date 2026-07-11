@@ -58,7 +58,7 @@ export default async function MembersPage({
           ))}
         </div>
 
-        <div className="mt-12 border border-white/10 bg-hc-navy-deep p-8 sm:p-10">
+        <div className="mt-12 border border-white/10 bg-hc-maple-deep p-8 sm:p-10">
           <h2 className="display-title text-2xl text-white sm:text-3xl">
             {dict.home.getInvolved}
           </h2>

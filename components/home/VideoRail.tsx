@@ -11,14 +11,14 @@ type Props = {
 };
 
 const railGradients = [
-  "from-hc-navy to-hc-night",
+  "from-hc-maple to-hc-night",
   "from-hc-red-dark to-hc-ink",
-  "from-hc-navy-soft to-hc-night",
+  "from-hc-maple-soft to-hc-night",
 ];
 
 export default function VideoRail({ videos, locale, dict }: Props) {
   return (
-    <section className="slant-t relative overflow-hidden bg-hc-ink pt-10">
+    <section className="slant-t grain spotlight relative overflow-hidden bg-hc-ink pt-10">
       <span
         aria-hidden
         className="ghost-text absolute right-0 top-16 text-[14vw] leading-none lg:text-[9rem]"

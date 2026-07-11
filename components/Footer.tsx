@@ -48,7 +48,7 @@ export default function Footer({ locale, dict }: Props) {
   return (
     <footer className="relative mt-24 border-t border-white/10 bg-hc-ink">
       {/* Red accent line, PSG-style */}
-      <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-hc-red via-hc-red-bright to-hc-navy" />
+      <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-hc-red via-hc-red-bright to-hc-maple" />
 
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[2fr_1fr_1fr_1.5fr]">

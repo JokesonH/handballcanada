@@ -1,6 +1,7 @@
 {
   "meta": {
     "siteName": "Handball Canada",
+    "official": "Official site of the Canadian Team Handball Federation",
     "tagline": "The official governing body of team handball in Canada",
     "description": "Handball Canada is the national federation for team handball, recognized by Sport Canada and the International Handball Federation. News, national teams, competitions and how to get involved."
   },
@@ -23,6 +24,7 @@
     "domesticCompetitions": "Domestic Competitions"
   },
   "home": {
+    "tickerLabel": "Latest",
     "heroKicker": "Featured",
     "heroCta": "Read the story",
     "upcomingEvents": "Upcoming Events",

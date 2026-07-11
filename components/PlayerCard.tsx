@@ -10,10 +10,10 @@ type Props = {
 };
 
 const groupGradients = [
-  "from-hc-navy via-hc-navy-deep to-hc-night",
-  "from-hc-navy-soft via-hc-ink to-hc-night",
-  "from-hc-red-dark via-hc-navy-deep to-hc-night",
-  "from-hc-navy via-hc-ink to-hc-night",
+  "from-hc-maple via-hc-maple-deep to-hc-night",
+  "from-hc-maple-soft via-hc-ink to-hc-night",
+  "from-hc-red-dark via-hc-maple-deep to-hc-night",
+  "from-hc-maple via-hc-ink to-hc-night",
 ];
 
 /** Simple jersey silhouette shown while a slot has no player photo. */
@@ -39,6 +39,10 @@ export default function PlayerCard({ player, groupIndex, locale, dict }: Props) 
       className={`group relative flex aspect-[3/4] flex-col justify-end overflow-hidden border border-white/10 bg-gradient-to-b p-4 transition-all hover:-translate-y-1 hover:border-hc-red ${groupGradients[groupIndex % groupGradients.length]}`}
     >
       <span aria-hidden className="absolute left-0 top-0 h-10 w-1 bg-hc-red" />
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/10 to-transparent transition-transform duration-700 group-hover:translate-x-full"
+      />
       <span
         aria-hidden
         className="ghost-text absolute -right-1 -top-3 text-7xl leading-none sm:text-8xl"

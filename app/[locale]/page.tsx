@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import NewsCard from "@/components/NewsCard";
 import SectionHeading from "@/components/SectionHeading";
+import Ticker from "@/components/Ticker";
 import EventsStrip from "@/components/home/EventsStrip";
 import Hero from "@/components/home/Hero";
 import PromoCards from "@/components/home/PromoCards";
@@ -23,6 +24,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   return (
     <>
       <Hero item={featured} locale={locale} dict={dict} />
+      <Ticker items={getAllNews()} locale={locale} dict={dict} />
       <EventsStrip events={events} locale={locale} dict={dict} />
 
       <section className="bg-hc-night">
@@ -33,7 +35,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             href={`/${locale}/news`}
             linkLabel={dict.home.allNews}
           />
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+          <div className="reveal grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
             {news.map((item) => (
               <NewsCard key={item.slug} item={item} locale={locale} dict={dict} />
             ))}

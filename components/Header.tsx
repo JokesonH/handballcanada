@@ -47,6 +47,29 @@ export default function Header({ locale, dict }: Props) {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-hc-night/90 backdrop-blur">
+      {/* Utility topbar */}
+      <div className="hidden border-b border-white/10 bg-hc-night lg:block">
+        <div className="mx-auto flex h-9 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+          <p className="kicker text-[0.6rem] text-hc-steel">{dict.meta.official}</p>
+          <div className="flex items-center gap-6">
+            <Link
+              href={`/${locale}/registration`}
+              className="kicker text-[0.6rem] text-hc-steel transition-colors hover:text-white"
+            >
+              {dict.nav.registration}
+            </Link>
+            <Link
+              href={`/${locale}/contact`}
+              className="kicker text-[0.6rem] text-hc-steel transition-colors hover:text-white"
+            >
+              {dict.nav.contact}
+            </Link>
+            <span className="kicker text-[0.6rem] text-hc-red">
+              {dict.footer.founded}
+            </span>
+          </div>
+        </div>
+      </div>
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-6 px-4 sm:px-6 lg:h-[4.5rem] lg:px-8">
         <Link
           href={`/${locale}`}

@@ -1,0 +1,27 @@
+{
+  "slug": "beach-women",
+  "code": "BW",
+  "discipline": "beach",
+  "gender": "women",
+  "order": 6,
+  "name": { "en": "Beach Handball Women", "fr": "Handball de plage femmes" },
+  "ageGroup": { "en": "Beach national team", "fr": "Équipe nationale de plage" },
+  "summary": {
+    "en": "Canada's women's beach handball team takes the maple leaf to the sand, competing at continental beach handball events.",
+    "fr": "L'équipe féminine canadienne de handball de plage porte la feuille d'érable sur le sable lors des événements continentaux de handball de plage."
+  },
+  "program": {
+    "en": [
+      "Played four-a-side on sand with double-point spin shots and in-flight goals, beach handball rewards creativity and athleticism.",
+      "The women's beach program represents Canada at events sanctioned by the North America & Caribbean Handball Confederation, with the IHF Beach Handball World Championships and the World Games as the destinations at the top of the pathway.",
+      "Athletes from the indoor game are encouraged to try the beach discipline — cross-over between the two programs is common and welcomed."
+    ],
+    "fr": [
+      "Joué à quatre contre quatre sur sable, avec des tirs pirouettes et des buts en vol valant le double, le handball de plage récompense la créativité et l'athlétisme.",
+      "Le programme féminin de plage représente le Canada aux événements sanctionnés par la Confédération de handball d'Amérique du Nord et des Caraïbes, avec les Championnats du monde de handball de plage de l'IHF et les Jeux mondiaux au sommet du parcours.",
+      "Les athlètes du jeu en salle sont encouragées à essayer la discipline de plage — le passage d'un programme à l'autre est courant et bienvenu."
+    ]
+  },
+  "roster": [],
+  "todo": "Add current beach roster and recent tournament results"
+}

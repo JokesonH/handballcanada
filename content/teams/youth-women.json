@@ -1,0 +1,31 @@
+{
+  "slug": "youth-women",
+  "code": "U18",
+  "discipline": "indoor",
+  "gender": "women",
+  "order": 4,
+  "name": { "en": "Youth Women (U18)", "fr": "Jeunesse femmes (U18)" },
+  "ageGroup": { "en": "Under-18 national team", "fr": "Équipe nationale des moins de 18 ans" },
+  "summary": {
+    "en": "Qualified for the 2026 IHF Women's Youth World Championship in Romania, the U18 women represent the youngest tier of Canada's national team pathway.",
+    "fr": "Qualifiées pour le Championnat du monde jeunesse féminin IHF 2026 en Roumanie, les U18 représentent le premier échelon du parcours des équipes nationales canadiennes."
+  },
+  "program": {
+    "en": [
+      "The Women's U18 National Team has earned its place at the IHF Women's Youth World Championship in Romania in summer 2026 — a milestone for the athletes and for the development system behind them.",
+      "The youth program is where Canada's most promising young players first experience international handball, supported by coaches from across the provincial federations.",
+      "Young athletes enter the pathway through their clubs and provincial teams; national identification camps are announced on this site and through member federations."
+    ],
+    "fr": [
+      "L'équipe nationale féminine U18 a obtenu sa place au Championnat du monde jeunesse féminin de l'IHF en Roumanie à l'été 2026 — un jalon pour les athlètes et pour le système de développement qui les soutient.",
+      "Le programme jeunesse est l'endroit où les jeunes joueuses les plus prometteuses du Canada vivent leurs premières expériences internationales, appuyées par des entraîneurs issus des fédérations provinciales.",
+      "Les jeunes athlètes intègrent le parcours par leurs clubs et leurs équipes provinciales; les camps d'identification nationaux sont annoncés sur ce site et par les fédérations membres."
+    ]
+  },
+  "highlight": {
+    "en": "2026 IHF Women's Youth World Championship — Romania",
+    "fr": "Championnat du monde jeunesse féminin IHF 2026 — Roumanie"
+  },
+  "roster": [],
+  "todo": "Add World Championship roster and staff when announced"
+}

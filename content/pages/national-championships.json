@@ -1,0 +1,50 @@
+{
+  "slug": "national-championships",
+  "ghost": "Nationals",
+  "title": { "en": "National Championships", "fr": "Championnats nationaux" },
+  "subtitle": {
+    "en": "The pinnacle of the Canadian season — the country's best club and provincial teams competing for national titles.",
+    "fr": "Le sommet de la saison canadienne — les meilleures équipes de clubs et provinciales du pays s'affrontent pour les titres nationaux."
+  },
+  "sections": [
+    {
+      "paragraphs": {
+        "en": [
+          "The Canadian National Championships crown the country's champions in the senior men's and women's divisions. The event rotates between host regions and is delivered by a provincial member federation in partnership with Handball Canada.",
+          "The 2026 edition is hosted at the Tri Leisure Centre in the Greater Edmonton area, organized by the Alberta Team Handball Federation in partnership with Handball Canada."
+        ],
+        "fr": [
+          "Les Championnats nationaux canadiens couronnent les champions du pays dans les divisions seniors masculine et féminine. L'événement alterne entre les régions hôtes et est livré par une fédération provinciale membre en partenariat avec Handball Canada.",
+          "L'édition 2026 est présentée au Tri Leisure Centre, dans la grande région d'Edmonton, sous l'organisation de la Fédération de handball de l'Alberta en partenariat avec Handball Canada."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "How teams qualify", "fr": "Comment les équipes se qualifient" },
+      "paragraphs": {
+        "en": [
+          "Teams reach the Nationals through their provincial federations — typically by winning or placing in provincial championship play. Entry procedures, divisions and eligibility rules are published ahead of each edition."
+        ],
+        "fr": [
+          "Les équipes accèdent aux Nationaux par l'entremise de leur fédération provinciale — généralement en remportant ou en se classant dans les championnats provinciaux. Les procédures d'inscription, les divisions et les règles d'admissibilité sont publiées avant chaque édition."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Past champions", "fr": "Champions passés" },
+      "paragraphs": {
+        "en": [
+          "The roll of honour of past national champions is being compiled and will be published on this page."
+        ],
+        "fr": [
+          "Le palmarès des champions nationaux passés est en cours de compilation et sera publié sur cette page."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Latest competition news", "fr": "Dernières nouvelles des compétitions" },
+    "href": "/news"
+  },
+  "todo": "Add past champions table and 2026 schedule/results when available"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "senior-men",
+  "code": "SM",
+  "discipline": "indoor",
+  "gender": "men",
+  "order": 2,
+  "name": { "en": "Senior Men", "fr": "Seniors hommes" },
+  "ageGroup": { "en": "Senior national team", "fr": "Équipe nationale senior" },
+  "summary": {
+    "en": "Canada's senior men's national team carries the maple leaf into continental championships and international competition.",
+    "fr": "L'équipe nationale masculine senior du Canada porte la feuille d'érable dans les championnats continentaux et les compétitions internationales."
+  },
+  "program": {
+    "en": [
+      "The senior men's program draws on Canada's club system and on Canadians competing in professional leagues around the world.",
+      "Continental championships run by the North America & Caribbean Handball Confederation anchor the team's calendar and open the road to IHF World Championship and Olympic qualification.",
+      "The pathway to the national team starts locally: play with a member club, compete provincially and nationally, and enter the identification pool for national team camps."
+    ],
+    "fr": [
+      "Le programme masculin senior s'appuie sur le système de clubs canadien et sur les Canadiens évoluant dans les ligues professionnelles à travers le monde.",
+      "Les championnats continentaux organisés par la Confédération de handball d'Amérique du Nord et des Caraïbes structurent le calendrier de l'équipe et ouvrent la voie aux qualifications pour les Championnats du monde de l'IHF et les Jeux olympiques.",
+      "Le parcours vers l'équipe nationale commence localement : jouez dans un club membre, participez aux compétitions provinciales et nationales, et intégrez le bassin d'identification pour les camps de l'équipe nationale."
+    ]
+  },
+  "roster": [],
+  "todo": "Add current roster, coaching staff and recent results"
+}

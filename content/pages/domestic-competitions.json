@@ -1,0 +1,38 @@
+{
+  "slug": "domestic-competitions",
+  "ghost": "Domestic",
+  "title": { "en": "Domestic Competitions", "fr": "Compétitions nationales" },
+  "subtitle": {
+    "en": "From local leagues to provincial championships — the competition ladder that feeds the national stage.",
+    "fr": "Des ligues locales aux championnats provinciaux — l'échelle de compétition qui alimente la scène nationale."
+  },
+  "sections": [
+    {
+      "paragraphs": {
+        "en": [
+          "Handball is played year-round across Canada in leagues and tournaments run by the provincial member federations. Club leagues, school and university programs, and regional tournaments form the base of the competitive pyramid.",
+          "Provincial championships crown the best teams in each province and serve as the qualification route to the Canadian National Championships."
+        ],
+        "fr": [
+          "Le handball se joue toute l'année au Canada dans des ligues et des tournois organisés par les fédérations provinciales membres. Les ligues de clubs, les programmes scolaires et universitaires ainsi que les tournois régionaux forment la base de la pyramide compétitive.",
+          "Les championnats provinciaux couronnent les meilleures équipes de chaque province et servent de voie de qualification vers les Championnats nationaux canadiens."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Where to play", "fr": "Où jouer" },
+      "paragraphs": {
+        "en": [
+          "To join a league or enter a tournament, get in touch with the member federation in your province — they run the local calendar and can connect you with a club near you."
+        ],
+        "fr": [
+          "Pour rejoindre une ligue ou participer à un tournoi, communiquez avec la fédération membre de votre province — elle gère le calendrier local et peut vous mettre en contact avec un club près de chez vous."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Find your provincial federation", "fr": "Trouvez votre fédération provinciale" },
+    "href": "/members"
+  }
+}

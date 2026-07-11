@@ -1,0 +1,41 @@
+{
+  "slug": "board",
+  "ghost": "Board",
+  "title": { "en": "Board of Directors", "fr": "Conseil d'administration" },
+  "subtitle": {
+    "en": "Handball Canada is led by an elected, volunteer Board of Directors drawn from the handball community across the country.",
+    "fr": "Handball Canada est dirigé par un conseil d'administration bénévole et élu, issu de la communauté du handball de partout au pays."
+  },
+  "sections": [
+    {
+      "paragraphs": {
+        "en": [
+          "The Board sets the strategic direction of the federation, oversees its finances and governance, and is accountable to the provincial member federations who elect it.",
+          "Day-to-day operations are led by the Executive Director, Matthias Pizzera, who works with the Board to deliver national programs and competitions.",
+          "The current directory of board members is being updated and will be published on this page."
+        ],
+        "fr": [
+          "Le conseil définit l'orientation stratégique de la fédération, supervise ses finances et sa gouvernance, et rend des comptes aux fédérations provinciales membres qui l'élisent.",
+          "Les opérations quotidiennes sont dirigées par le directeur général, Matthias Pizzera, qui travaille avec le conseil pour livrer les programmes et compétitions nationaux.",
+          "Le répertoire actuel des membres du conseil est en cours de mise à jour et sera publié sur cette page."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Get in touch", "fr": "Communiquez avec nous" },
+      "paragraphs": {
+        "en": [
+          "Questions for the Board or about governance can be sent through the contact page."
+        ],
+        "fr": [
+          "Les questions destinées au conseil ou portant sur la gouvernance peuvent être transmises par la page contact."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Contact us", "fr": "Contactez-nous" },
+    "href": "/contact"
+  },
+  "todo": "Add current board member names and roles from the live site"
+}

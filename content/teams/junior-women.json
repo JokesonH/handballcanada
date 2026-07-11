@@ -1,0 +1,31 @@
+{
+  "slug": "junior-women",
+  "code": "U20",
+  "discipline": "indoor",
+  "gender": "women",
+  "order": 3,
+  "name": { "en": "Junior Women (U20)", "fr": "Juniors femmes (U20)" },
+  "ageGroup": { "en": "Under-20 national team", "fr": "Équipe nationale des moins de 20 ans" },
+  "summary": {
+    "en": "Qualified for the 2026 IHF Women's Junior World Championship in Jinzhong, China — the U20 women are the leading edge of Canada's next generation.",
+    "fr": "Qualifiées pour le Championnat du monde junior féminin IHF 2026 à Jinzhong, en Chine — les U20 sont le fer de lance de la relève canadienne."
+  },
+  "program": {
+    "en": [
+      "The Women's U20 National Team earned its place at the 25th IHF Women's Junior World Championship, held in Jinzhong, China, from July 29 to August 9, 2026, where Canada opens against Chinese Taipei.",
+      "The junior program bridges provincial development and the senior national team, giving Canada's top under-20 athletes international experience against the best in the world.",
+      "Selection runs through provincial programs and national identification camps held across the country."
+    ],
+    "fr": [
+      "L'équipe nationale féminine U20 a décroché sa place au 25e Championnat du monde junior féminin de l'IHF, présenté à Jinzhong, en Chine, du 29 juillet au 9 août 2026, où le Canada affrontera le Taipei chinois en ouverture.",
+      "Le programme junior fait le pont entre le développement provincial et l'équipe nationale senior, offrant aux meilleures athlètes canadiennes de moins de 20 ans une expérience internationale contre l'élite mondiale.",
+      "La sélection passe par les programmes provinciaux et les camps d'identification nationaux tenus partout au pays."
+    ]
+  },
+  "highlight": {
+    "en": "2026 IHF Women's Junior World Championship — Jinzhong, China",
+    "fr": "Championnat du monde junior féminin IHF 2026 — Jinzhong, Chine"
+  },
+  "roster": [],
+  "todo": "Add World Championship roster and staff when announced"
+}

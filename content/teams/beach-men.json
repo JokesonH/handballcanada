@@ -1,0 +1,27 @@
+{
+  "slug": "beach-men",
+  "code": "BM",
+  "discipline": "beach",
+  "gender": "men",
+  "order": 5,
+  "name": { "en": "Beach Handball Men", "fr": "Handball de plage hommes" },
+  "ageGroup": { "en": "Beach national team", "fr": "Équipe nationale de plage" },
+  "summary": {
+    "en": "Canada's men's beach handball team competes in the fast-growing sand discipline, representing the country at continental beach championships.",
+    "fr": "L'équipe masculine canadienne de handball de plage évolue dans cette discipline en pleine croissance, représentant le pays aux championnats continentaux de plage."
+  },
+  "program": {
+    "en": [
+      "Beach handball is the sport's spectacular outdoor discipline: four-a-side on sand, with spin shots and in-flight goals worth double points.",
+      "Canada's men's beach program competes at events sanctioned by the North America & Caribbean Handball Confederation, the qualification route to IHF Beach Handball World Championships and the World Games.",
+      "The beach program is a natural summer complement for indoor players — many national team athletes play both disciplines."
+    ],
+    "fr": [
+      "Le handball de plage est la discipline extérieure spectaculaire du sport : quatre contre quatre sur sable, avec des tirs pirouettes et des buts en vol qui valent le double.",
+      "Le programme masculin de plage du Canada participe aux événements sanctionnés par la Confédération de handball d'Amérique du Nord et des Caraïbes, la voie de qualification vers les Championnats du monde de handball de plage de l'IHF et les Jeux mondiaux.",
+      "Le programme de plage est un complément estival naturel pour les joueurs en salle — plusieurs athlètes des équipes nationales pratiquent les deux disciplines."
+    ]
+  },
+  "roster": [],
+  "todo": "Add current beach roster and recent tournament results"
+}

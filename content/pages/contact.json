@@ -1,0 +1,29 @@
+{
+  "slug": "contact",
+  "ghost": "Hello",
+  "title": { "en": "Contact", "fr": "Contact" },
+  "subtitle": {
+    "en": "Questions about programs, competitions, media or partnership? Get in touch.",
+    "fr": "Des questions sur les programmes, les compétitions, les médias ou les partenariats? Écrivez-nous."
+  },
+  "sections": [
+    {
+      "heading": { "en": "General inquiries", "fr": "Demandes générales" },
+      "paragraphs": {
+        "en": [
+          "For general questions about Handball Canada, national teams or national competitions, reach out through our social channels or the addresses published on our official communications while this page is being finalized.",
+          "For questions about local clubs, leagues and provincial programs, your fastest route is the member federation in your province."
+        ],
+        "fr": [
+          "Pour toute question générale sur Handball Canada, les équipes nationales ou les compétitions nationales, joignez-nous par nos réseaux sociaux ou par les adresses publiées dans nos communications officielles pendant que cette page est finalisée.",
+          "Pour les questions sur les clubs locaux, les ligues et les programmes provinciaux, le chemin le plus rapide est la fédération membre de votre province."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Member federations", "fr": "Fédérations membres" },
+    "href": "/members"
+  },
+  "todo": "Add official contact email, mailing address and media contact from the federation"
+}

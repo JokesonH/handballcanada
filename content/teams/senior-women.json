@@ -1,0 +1,27 @@
+{
+  "slug": "senior-women",
+  "code": "SW",
+  "discipline": "indoor",
+  "gender": "women",
+  "order": 1,
+  "name": { "en": "Senior Women", "fr": "Seniors femmes" },
+  "ageGroup": { "en": "Senior national team", "fr": "Équipe nationale senior" },
+  "summary": {
+    "en": "Canada's senior women's national team competes on the continental and international stage, representing the country at NACHC and IHF events.",
+    "fr": "L'équipe nationale féminine senior du Canada évolue sur les scènes continentale et internationale, représentant le pays lors des événements de la NACHC et de l'IHF."
+  },
+  "program": {
+    "en": [
+      "The senior women's program brings together the best players in the country — athletes developed in Canadian clubs and provincial programs, alongside Canadians playing professionally abroad.",
+      "The team's competitive calendar is built around continental championships sanctioned by the North America & Caribbean Handball Confederation, which serve as the pathway to IHF World Championship and Olympic qualification.",
+      "Athletes interested in the national team pathway should be active with a member club and their provincial federation, where identification for national programs begins."
+    ],
+    "fr": [
+      "Le programme féminin senior réunit les meilleures joueuses au pays — des athlètes formées dans les clubs canadiens et les programmes provinciaux, ainsi que des Canadiennes évoluant professionnellement à l'étranger.",
+      "Le calendrier compétitif de l'équipe s'articule autour des championnats continentaux sanctionnés par la Confédération de handball d'Amérique du Nord et des Caraïbes, qui constituent la voie de qualification vers les Championnats du monde de l'IHF et les Jeux olympiques.",
+      "Les athlètes intéressées par le parcours de l'équipe nationale devraient être actives au sein d'un club membre et de leur fédération provinciale, où débute l'identification pour les programmes nationaux."
+    ]
+  },
+  "roster": [],
+  "todo": "Add current roster, coaching staff and recent results"
+}

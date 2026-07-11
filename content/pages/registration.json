@@ -1,0 +1,46 @@
+{
+  "slug": "registration",
+  "ghost": "Join",
+  "title": { "en": "Registration", "fr": "Inscription" },
+  "subtitle": {
+    "en": "Player, coach and official registration for provincial members runs through Handball Canada's online registration system.",
+    "fr": "L'inscription des joueurs, entraîneurs et officiels pour les membres provinciaux se fait par le système d'inscription en ligne de Handball Canada."
+  },
+  "sections": [
+    {
+      "heading": { "en": "Who registers", "fr": "Qui doit s'inscrire" },
+      "paragraphs": {
+        "en": [
+          "Players, coaches and officials affiliated with a provincial member federation register through the national registration system. Registration provides your national membership, insurance coverage for sanctioned activities, and eligibility for sanctioned competitions.",
+          "If you are new to the sport and not yet part of a club, start with the member federation in your province — they will help you find a club and complete registration."
+        ],
+        "fr": [
+          "Les joueurs, entraîneurs et officiels affiliés à une fédération provinciale membre s'inscrivent par le système d'inscription national. L'inscription vous confère votre adhésion nationale, une couverture d'assurance pour les activités sanctionnées et l'admissibilité aux compétitions sanctionnées.",
+          "Si vous découvrez ce sport et ne faites pas encore partie d'un club, commencez par la fédération membre de votre province — elle vous aidera à trouver un club et à compléter votre inscription."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "How it works", "fr": "Comment ça fonctionne" },
+      "list": {
+        "en": [
+          "Find your club or provincial program",
+          "Open the registration platform using the button below",
+          "Create or sign in to your account and select your membership",
+          "Complete payment — you are ready for the season"
+        ],
+        "fr": [
+          "Trouvez votre club ou votre programme provincial",
+          "Ouvrez la plateforme d'inscription avec le bouton ci-dessous",
+          "Créez votre compte ou connectez-vous et choisissez votre adhésion",
+          "Complétez le paiement — vous êtes prêt pour la saison"
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Open the registration platform", "fr": "Ouvrir la plateforme d'inscription" },
+    "href": "https://handballcanada.ca/registration-system-for-provincial-members",
+    "external": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "members",
+  "ghost": "Canada",
+  "title": { "en": "Members & Clubs", "fr": "Membres et clubs" },
+  "subtitle": {
+    "en": "Handball Canada's members are the provincial federations. They run local leagues and clubs from coast to coast — and they are your entry point into the game.",
+    "fr": "Les membres de Handball Canada sont les fédérations provinciales. Elles gèrent les ligues et clubs locaux d'un océan à l'autre — et elles sont votre porte d'entrée dans ce sport."
+  },
+  "sections": [
+    {
+      "paragraphs": {
+        "en": [
+          "Whether you want to play, coach, officiate or volunteer, everything starts with the member federation in your province. They can connect you with a club near you, tell you about beginner programs, and register you for the season."
+        ],
+        "fr": [
+          "Que vous souhaitiez jouer, entraîner, arbitrer ou faire du bénévolat, tout commence par la fédération membre de votre province. Elle peut vous mettre en contact avec un club près de chez vous, vous renseigner sur les programmes pour débutants et vous inscrire pour la saison."
+        ]
+      }
+    }
+  ],
+  "todo": "Add website/contact links for each provincial federation"
+}

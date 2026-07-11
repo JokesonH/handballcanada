@@ -1,0 +1,82 @@
+{
+  "slug": "how-to-play",
+  "ghost": "Play",
+  "title": { "en": "How to Play Handball", "fr": "Comment jouer au handball" },
+  "subtitle": {
+    "en": "Fast, physical and spectacular — team handball is one of the world's most popular indoor sports. Here is the game in five minutes.",
+    "fr": "Rapide, physique et spectaculaire — le handball est l'un des sports intérieurs les plus populaires au monde. Voici le jeu en cinq minutes."
+  },
+  "sections": [
+    {
+      "heading": { "en": "The basics", "fr": "Les bases" },
+      "paragraphs": {
+        "en": [
+          "Two teams of seven — six court players and a goalkeeper — face off on a 40 by 20 metre court, attacking a goal at each end. The object is simple: throw the ball into the opponent's net. Matches are played in two 30-minute halves, and elite games routinely finish with more than 50 goals scored.",
+          "Players may take up to three steps with the ball and hold it for up to three seconds before passing, shooting or dribbling. Only the goalkeeper may enter the six-metre goal area, so attackers leap from outside the line and shoot mid-air — the signature image of the sport."
+        ],
+        "fr": [
+          "Deux équipes de sept — six joueurs de champ et un gardien — s'affrontent sur un terrain de 40 mètres sur 20, attaquant un but à chaque extrémité. L'objectif est simple : lancer le ballon dans le filet adverse. Les matchs se jouent en deux mi-temps de 30 minutes, et les rencontres de haut niveau dépassent régulièrement les 50 buts.",
+          "Un joueur peut faire jusqu'à trois pas avec le ballon et le tenir au maximum trois secondes avant de passer, tirer ou dribbler. Seul le gardien peut pénétrer dans la zone des six mètres; les attaquants s'élancent donc depuis la ligne et tirent en plein vol — l'image signature de ce sport."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Key rules", "fr": "Règles clés" },
+      "list": {
+        "en": [
+          "7 players per side: 6 court players + 1 goalkeeper",
+          "Up to 3 steps and 3 seconds with the ball",
+          "Only the goalkeeper may play inside the 6-metre area",
+          "Free throws are taken at the 9-metre line",
+          "A 7-metre throw (penalty) is awarded for denied clear chances",
+          "Unlimited substitutions, on the fly, like hockey"
+        ],
+        "fr": [
+          "7 joueurs par équipe : 6 joueurs de champ + 1 gardien",
+          "Maximum de 3 pas et de 3 secondes avec le ballon",
+          "Seul le gardien peut jouer dans la zone des 6 mètres",
+          "Les jets francs se tirent à la ligne des 9 mètres",
+          "Un jet de 7 mètres (penalty) est accordé lorsqu'une occasion nette est déniée",
+          "Substitutions illimitées, à la volée, comme au hockey"
+        ]
+      }
+    },
+    {
+      "heading": { "en": "The positions", "fr": "Les positions" },
+      "paragraphs": {
+        "en": [
+          "Attacks are built around a centre back who directs play, flanked by left and right backs with the big long-range shots, wings who attack from tight angles in the corners, and a pivot who battles in the middle of the defence. Behind them all stands the goalkeeper — the most fearless position in sport."
+        ],
+        "fr": [
+          "L'attaque s'organise autour d'un demi-centre qui dirige le jeu, entouré d'arrières gauche et droit aux puissants tirs de loin, d'ailiers qui attaquent depuis les angles fermés des coins, et d'un pivot qui se bat au cœur de la défense. Derrière eux tous se dresse le gardien — la position la plus intrépide du sport."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Beach handball", "fr": "Handball de plage" },
+      "paragraphs": {
+        "en": [
+          "The summer sibling of the indoor game is played four-a-side on sand, with creative goals — spin shots and in-flight finishes — worth double points. It is one of the fastest-growing disciplines in international handball, and Canada fields national beach teams for both men and women."
+        ],
+        "fr": [
+          "La version estivale du jeu en salle se joue à quatre contre quatre sur sable, où les buts créatifs — tirs pirouettes et finitions en vol — valent le double. C'est l'une des disciplines qui connaît la plus forte croissance dans le handball international, et le Canada aligne des équipes nationales de plage masculine et féminine."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Ready to try it?", "fr": "Prêt à essayer?" },
+      "paragraphs": {
+        "en": [
+          "All you need is a ball, a gym and a group of friends. Clubs across the country welcome beginners of all ages — find the member federation in your province and they will point you to a court near you."
+        ],
+        "fr": [
+          "Il ne vous faut qu'un ballon, un gymnase et un groupe d'amis. Les clubs partout au pays accueillent les débutants de tous âges — trouvez la fédération membre de votre province et elle vous indiquera un terrain près de chez vous."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Find a club", "fr": "Trouver un club" },
+    "href": "/members"
+  }
+}

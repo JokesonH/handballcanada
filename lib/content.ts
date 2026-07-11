@@ -35,6 +35,21 @@ export type EventItem = {
   todo?: string;
 };
 
+export type TeamItem = {
+  slug: string;
+  code: string;
+  discipline: "indoor" | "beach";
+  gender: "men" | "women";
+  order: number;
+  name: Localized;
+  ageGroup: Localized;
+  summary: Localized;
+  program: Localized<string[]>;
+  highlight?: Localized;
+  roster: { number: number; name: string; position: string; club: string }[];
+  todo?: string;
+};
+
 export type VideoItem = {
   id: string;
   title: Localized;
@@ -72,4 +87,37 @@ export function getEvents(): EventItem[] {
 
 export function getVideos(): VideoItem[] {
   return readJson<VideoItem[]>("videos.json");
+}
+
+export function getTeams(): TeamItem[] {
+  const dir = path.join(contentDir, "teams");
+  return fs
+    .readdirSync(dir)
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => readJson<TeamItem>(path.join("teams", file)))
+    .sort((a, b) => a.order - b.order);
+}
+
+export function getTeam(slug: string): TeamItem | undefined {
+  return getTeams().find((team) => team.slug === slug);
+}
+
+export type PageSection = {
+  heading?: Localized;
+  paragraphs?: Localized<string[]>;
+  list?: Localized<string[]>;
+};
+
+export type PageContent = {
+  slug: string;
+  ghost?: string;
+  title: Localized;
+  subtitle?: Localized;
+  sections: PageSection[];
+  cta?: { label: Localized; href: string; external?: boolean };
+  todo?: string;
+};
+
+export function getPage(slug: string): PageContent {
+  return readJson<PageContent>(path.join("pages", `${slug}.json`));
 }

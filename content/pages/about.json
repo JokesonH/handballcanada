@@ -1,0 +1,59 @@
+{
+  "slug": "about",
+  "ghost": "1962",
+  "title": { "en": "The Federation", "fr": "La Fédération" },
+  "subtitle": {
+    "en": "The Canadian Team Handball Federation — Handball Canada — has been the national governing body of the sport since 1962.",
+    "fr": "La Fédération canadienne de handball olympique — Handball Canada — est l'organisme national directeur de ce sport depuis 1962."
+  },
+  "sections": [
+    {
+      "heading": { "en": "Who we are", "fr": "Qui nous sommes" },
+      "paragraphs": {
+        "en": [
+          "Handball Canada is the official governing body of team handball in Canada, recognized by Sport Canada and the International Handball Federation (IHF). Founded in 1962, the federation is a non-profit organization led by an elected volunteer Board of Directors.",
+          "We exist to support and grow handball across the country, with a particular emphasis on the development of players, coaches and referees."
+        ],
+        "fr": [
+          "Handball Canada est l'organisme directeur officiel du handball au Canada, reconnu par Sport Canada et par la Fédération internationale de handball (IHF). Fondée en 1962, la fédération est un organisme sans but lucratif dirigé par un conseil d'administration bénévole élu.",
+          "Notre raison d'être : soutenir et développer le handball partout au pays, avec un accent particulier sur le développement des joueurs, des entraîneurs et des arbitres."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "What we do", "fr": "Ce que nous faisons" },
+      "list": {
+        "en": [
+          "Field Canada's national teams — indoor and beach, from youth to senior",
+          "Sanction and deliver the Canadian National Championships",
+          "Support provincial member federations and their clubs",
+          "Develop coaches and referees to international standards",
+          "Represent Canada within the IHF and the North America & Caribbean Handball Confederation"
+        ],
+        "fr": [
+          "Aligner les équipes nationales du Canada — en salle et de plage, de la relève au niveau senior",
+          "Sanctionner et livrer les Championnats nationaux canadiens",
+          "Soutenir les fédérations provinciales membres et leurs clubs",
+          "Former des entraîneurs et des arbitres selon les normes internationales",
+          "Représenter le Canada au sein de l'IHF et de la Confédération de handball d'Amérique du Nord et des Caraïbes"
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Governance", "fr": "Gouvernance" },
+      "paragraphs": {
+        "en": [
+          "In 2026, Handball Canada's members voted to adopt a modernized governance framework aligned with current best practices in Canadian sport. Governing documents, policies and annual reports are published as they are updated."
+        ],
+        "fr": [
+          "En 2026, les membres de Handball Canada ont voté l'adoption d'un cadre de gouvernance modernisé, aligné sur les meilleures pratiques actuelles du sport canadien. Les documents de gouvernance, politiques et rapports annuels sont publiés au fur et à mesure de leur mise à jour."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Meet the Board of Directors", "fr": "Rencontrez le conseil d'administration" },
+    "href": "/about/board"
+  },
+  "todo": "Link governance documents (bylaws, policies, annual reports) when provided"
+}

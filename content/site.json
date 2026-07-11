@@ -1,0 +1,22 @@
+{
+  "registrationUrl": "https://handballcanada.ca/registration-system-for-provincial-members",
+  "youtubeUrl": "https://www.youtube.com/@handballcanada",
+  "socials": [
+    { "name": "Facebook", "url": "https://www.facebook.com/handballcanada" },
+    { "name": "Instagram", "url": "https://www.instagram.com/handballcanada" },
+    { "name": "YouTube", "url": "https://www.youtube.com/@handballcanada" }
+  ],
+  "memberFederations": [
+    { "en": "Alberta Team Handball Federation", "fr": "Fédération de handball de l'Alberta", "province": "AB" },
+    { "en": "British Columbia Team Handball Federation", "fr": "Fédération de handball de la Colombie-Britannique", "province": "BC" },
+    { "en": "Manitoba Team Handball Federation", "fr": "Fédération de handball du Manitoba", "province": "MB" },
+    { "en": "Ontario Team Handball Federation", "fr": "Fédération ontarienne de handball olympique", "province": "ON" },
+    { "en": "Fédération québécoise de handball olympique", "fr": "Fédération québécoise de handball olympique", "province": "QC" },
+    { "en": "Saskatchewan Team Handball Federation", "fr": "Fédération de handball de la Saskatchewan", "province": "SK" }
+  ],
+  "partners": [
+    { "name": "Sport Canada", "url": "https://www.canada.ca/en/canadian-heritage/services/sport-canada.html" },
+    { "name": "International Handball Federation", "url": "https://www.ihf.info" },
+    { "name": "North America & Caribbean Handball Confederation", "url": "https://nachc.sport" }
+  ]
+}

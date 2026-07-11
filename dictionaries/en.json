@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "siteName": "Handball Canada",
+    "tagline": "The official governing body of team handball in Canada",
+    "description": "Handball Canada is the national federation for team handball, recognized by Sport Canada and the International Handball Federation. News, national teams, competitions and how to get involved."
+  },
+  "nav": {
+    "home": "Home",
+    "news": "News",
+    "teams": "National Teams",
+    "competitions": "Competitions",
+    "howToPlay": "How to Play",
+    "about": "About",
+    "board": "Board of Directors",
+    "members": "Members",
+    "registration": "Registration",
+    "contact": "Contact",
+    "register": "Register",
+    "findAClub": "Find a Club",
+    "menu": "Menu",
+    "close": "Close",
+    "nationalChampionships": "National Championships",
+    "domesticCompetitions": "Domestic Competitions"
+  },
+  "home": {
+    "heroKicker": "Featured",
+    "heroCta": "Read the story",
+    "upcomingEvents": "Upcoming Events",
+    "allCompetitions": "All competitions",
+    "latestNews": "Latest News",
+    "allNews": "All news",
+    "watch": "Handball Canada TV",
+    "watchSub": "Highlights, full matches and features from our national teams",
+    "moreVideos": "More on YouTube",
+    "getInvolved": "Get Involved",
+    "getInvolvedSub": "From your first throw to the national team — there is a place for you in Canadian handball"
+  },
+  "events": {
+    "upcoming": "Upcoming",
+    "details": "Event details",
+    "moreInfo": "More info",
+    "venue": "Venue",
+    "dates": "Dates"
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "The latest from Canadian handball",
+    "readMore": "Read more",
+    "backToNews": "Back to news",
+    "allCategories": "All",
+    "published": "Published",
+    "relatedNews": "More news"
+  },
+  "categories": {
+    "national-teams": "National Teams",
+    "beach": "Beach Handball",
+    "federation": "The Federation",
+    "competitions": "Competitions",
+    "development": "Development"
+  },
+  "teams": {
+    "title": "National Teams",
+    "subtitle": "The players who wear the maple leaf",
+    "indoor": "Indoor",
+    "beach": "Beach",
+    "men": "Men",
+    "women": "Women",
+    "roster": "Roster",
+    "staff": "Staff",
+    "program": "About the program",
+    "viewTeam": "View team",
+    "number": "No.",
+    "name": "Name",
+    "position": "Position",
+    "club": "Club / Province"
+  },
+  "competitions": {
+    "title": "Competitions",
+    "nationalChampionships": "National Championships",
+    "domesticCompetitions": "Domestic Competitions",
+    "pastChampions": "Past champions",
+    "year": "Year",
+    "host": "Host",
+    "champions": "Champions"
+  },
+  "footer": {
+    "federationLinks": "The Federation",
+    "getInvolved": "Get Involved",
+    "memberFederations": "Member Federations",
+    "partners": "Partners",
+    "followUs": "Follow us",
+    "legal": "Handball Canada — Canadian Team Handball Federation. All rights reserved.",
+    "founded": "Founded in 1962"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "discover": "Discover",
+    "todoContent": "This section is being finalized — content coming soon.",
+    "externalRegistration": "Opens the Handball Canada registration platform"
+  },
+  "notFound": {
+    "title": "Out of bounds",
+    "message": "The page you are looking for does not exist or has moved.",
+    "backHome": "Back to home"
+  }
+}

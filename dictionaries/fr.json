@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "siteName": "Handball Canada",
+    "tagline": "L'organisme national directeur du handball au Canada",
+    "description": "Handball Canada est la fédération nationale de handball, reconnue par Sport Canada et la Fédération internationale de handball. Nouvelles, équipes nationales, compétitions et comment participer."
+  },
+  "nav": {
+    "home": "Accueil",
+    "news": "Actualités",
+    "teams": "Équipes nationales",
+    "competitions": "Compétitions",
+    "howToPlay": "Comment jouer",
+    "about": "À propos",
+    "board": "Conseil d'administration",
+    "members": "Membres",
+    "registration": "Inscription",
+    "contact": "Contact",
+    "register": "S'inscrire",
+    "findAClub": "Trouver un club",
+    "menu": "Menu",
+    "close": "Fermer",
+    "nationalChampionships": "Championnats nationaux",
+    "domesticCompetitions": "Compétitions nationales"
+  },
+  "home": {
+    "heroKicker": "À la une",
+    "heroCta": "Lire l'article",
+    "upcomingEvents": "Événements à venir",
+    "allCompetitions": "Toutes les compétitions",
+    "latestNews": "Dernières nouvelles",
+    "allNews": "Toutes les nouvelles",
+    "watch": "Handball Canada TV",
+    "watchSub": "Faits saillants, matchs complets et reportages de nos équipes nationales",
+    "moreVideos": "Plus sur YouTube",
+    "getInvolved": "Participez",
+    "getInvolvedSub": "De votre premier lancer jusqu'à l'équipe nationale — il y a une place pour vous dans le handball canadien"
+  },
+  "events": {
+    "upcoming": "À venir",
+    "details": "Détails de l'événement",
+    "moreInfo": "Plus d'infos",
+    "venue": "Lieu",
+    "dates": "Dates"
+  },
+  "news": {
+    "title": "Actualités",
+    "subtitle": "Les dernières nouvelles du handball canadien",
+    "readMore": "Lire la suite",
+    "backToNews": "Retour aux actualités",
+    "allCategories": "Toutes",
+    "published": "Publié",
+    "relatedNews": "Plus de nouvelles"
+  },
+  "categories": {
+    "national-teams": "Équipes nationales",
+    "beach": "Handball de plage",
+    "federation": "La Fédération",
+    "competitions": "Compétitions",
+    "development": "Développement"
+  },
+  "teams": {
+    "title": "Équipes nationales",
+    "subtitle": "Les athlètes qui portent la feuille d'érable",
+    "indoor": "Intérieur",
+    "beach": "Plage",
+    "men": "Hommes",
+    "women": "Femmes",
+    "roster": "Alignement",
+    "staff": "Personnel",
+    "program": "À propos du programme",
+    "viewTeam": "Voir l'équipe",
+    "number": "N°",
+    "name": "Nom",
+    "position": "Position",
+    "club": "Club / Province"
+  },
+  "competitions": {
+    "title": "Compétitions",
+    "nationalChampionships": "Championnats nationaux",
+    "domesticCompetitions": "Compétitions nationales",
+    "pastChampions": "Champions passés",
+    "year": "Année",
+    "host": "Hôte",
+    "champions": "Champions"
+  },
+  "footer": {
+    "federationLinks": "La Fédération",
+    "getInvolved": "Participez",
+    "memberFederations": "Fédérations membres",
+    "partners": "Partenaires",
+    "followUs": "Suivez-nous",
+    "legal": "Handball Canada — Fédération canadienne de handball olympique. Tous droits réservés.",
+    "founded": "Fondée en 1962"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "discover": "Découvrir",
+    "todoContent": "Cette section est en cours de finalisation — contenu à venir.",
+    "externalRegistration": "Ouvre la plateforme d'inscription de Handball Canada"
+  },
+  "notFound": {
+    "title": "Hors limites",
+    "message": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil"
+  }
+}

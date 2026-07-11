@@ -1,6 +1,7 @@
 import Link from "next/link";
 import CourtLines from "@/components/CourtLines";
-import { formatDate, type NewsItem } from "@/lib/content";
+import type { NewsItem } from "@/lib/content";
+import { formatDate } from "@/lib/format";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/locales";
 

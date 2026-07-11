@@ -73,10 +73,3 @@ export function getEvents(): EventItem[] {
 export function getVideos(): VideoItem[] {
   return readJson<VideoItem[]>("videos.json");
 }
-
-export function formatDate(date: string, locale: Locale): string {
-  return new Date(`${date}T12:00:00Z`).toLocaleDateString(
-    locale === "fr" ? "fr-CA" : "en-CA",
-    { year: "numeric", month: "long", day: "numeric" }
-  );
-}

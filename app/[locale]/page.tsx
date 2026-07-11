@@ -1,15 +1,48 @@
-import { getDictionary, isLocale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
+import NewsCard from "@/components/NewsCard";
+import SectionHeading from "@/components/SectionHeading";
+import EventsStrip from "@/components/home/EventsStrip";
+import Hero from "@/components/home/Hero";
+import PromoCards from "@/components/home/PromoCards";
+import VideoRail from "@/components/home/VideoRail";
+import { getAllNews, getEvents, getFeaturedNews, getVideos } from "@/lib/content";
+import { getDictionary, isLocale } from "@/lib/i18n";
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
 
+  const featured = getFeaturedNews();
+  const news = getAllNews()
+    .filter((item) => item.slug !== featured.slug)
+    .slice(0, 3);
+  const events = getEvents();
+  const videos = getVideos();
+
   return (
-    <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
-      <h1 className="display-title text-6xl text-white">{dict.meta.siteName}</h1>
-      <p className="mt-4 text-hc-mist">{dict.meta.tagline}</p>
-    </div>
+    <>
+      <Hero item={featured} locale={locale} dict={dict} />
+      <EventsStrip events={events} locale={locale} dict={dict} />
+
+      <section className="bg-hc-night">
+        <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8 lg:pb-20">
+          <SectionHeading
+            kicker="News"
+            title={dict.home.latestNews}
+            href={`/${locale}/news`}
+            linkLabel={dict.home.allNews}
+          />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+            {news.map((item) => (
+              <NewsCard key={item.slug} item={item} locale={locale} dict={dict} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <VideoRail videos={videos} locale={locale} dict={dict} />
+      <PromoCards locale={locale} dict={dict} />
+    </>
   );
 }

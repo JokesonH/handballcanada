@@ -1,0 +1,49 @@
+[
+  {
+    "id": "u20-worlds-2026",
+    "competition": {
+      "en": "IHF Women's Junior (U20) World Championship",
+      "fr": "Championnat du monde junior féminin (U20) de l'IHF"
+    },
+    "matchup": { "home": "CAN", "away": "TPE" },
+    "dateLabel": { "en": "Jul 29 – Aug 9, 2026", "fr": "29 juil. – 9 août 2026" },
+    "venue": { "en": "Jinzhong, China", "fr": "Jinzhong, Chine" },
+    "note": {
+      "en": "Canada opens against Chinese Taipei",
+      "fr": "Le Canada affronte le Taipei chinois en ouverture"
+    },
+    "href": "/news/u18-u20-women-qualify-2026-worlds"
+  },
+  {
+    "id": "u18-worlds-2026",
+    "competition": {
+      "en": "IHF Women's Youth (U18) World Championship",
+      "fr": "Championnat du monde jeunesse féminin (U18) de l'IHF"
+    },
+    "matchup": { "home": "CAN", "away": null },
+    "dateLabel": { "en": "Summer 2026", "fr": "Été 2026" },
+    "venue": { "en": "Romania", "fr": "Roumanie" },
+    "note": {
+      "en": "Canada's U18 women on the world stage",
+      "fr": "Les U18 canadiennes sur la scène mondiale"
+    },
+    "href": "/news/u18-u20-women-qualify-2026-worlds",
+    "todo": "Confirm exact U18 Worlds dates and host city"
+  },
+  {
+    "id": "senior-nationals",
+    "competition": {
+      "en": "Canadian Senior National Championships",
+      "fr": "Championnats nationaux seniors canadiens"
+    },
+    "matchup": { "home": "CAN", "away": null },
+    "dateLabel": { "en": "2026 edition", "fr": "Édition 2026" },
+    "venue": { "en": "Tri Leisure Centre, Edmonton area", "fr": "Tri Leisure Centre, région d'Edmonton" },
+    "note": {
+      "en": "The pinnacle of the domestic season",
+      "fr": "Le sommet de la saison intérieure"
+    },
+    "href": "/competitions/national-championships",
+    "todo": "Confirm exact dates for the 2026 Senior Nationals"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "slug": "referees",
+  "ghost": "Whistle",
+  "title": { "en": "Referees & Officiating", "fr": "Arbitres et officiels" },
+  "subtitle": {
+    "en": "Every match needs officials. Handball Canada develops referees from local leagues to international courts.",
+    "fr": "Chaque match a besoin d'officiels. Handball Canada forme des arbitres, des ligues locales jusqu'aux terrains internationaux."
+  },
+  "sections": [
+    {
+      "heading": { "en": "Become a referee", "fr": "Devenir arbitre" },
+      "paragraphs": {
+        "en": [
+          "Refereeing is one of the best ways to stay in the game — and one of the fastest ways to deepen your understanding of it. New officials start in local league play through their provincial federation, with training and mentorship along the way.",
+          "Experienced referees can progress through provincial and national certification toward continental and IHF nomination, officiating at national championships and international events."
+        ],
+        "fr": [
+          "L'arbitrage est l'une des meilleures façons de rester dans le jeu — et l'une des plus rapides pour en approfondir la compréhension. Les nouveaux officiels débutent dans les ligues locales par l'entremise de leur fédération provinciale, avec formation et mentorat en cours de route.",
+          "Les arbitres expérimentés peuvent progresser par la certification provinciale et nationale vers les nominations continentales et de l'IHF, arbitrant aux championnats nationaux et aux événements internationaux."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "The rules of the game", "fr": "Les règles du jeu" },
+      "paragraphs": {
+        "en": [
+          "Team handball is governed by the IHF Rules of the Game, which cover everything from court dimensions and the three-step rule to progressive punishments and the seven-metre throw. The official rulebook is published by the International Handball Federation.",
+          "If you are new to the sport, our How to Play page covers the essentials in five minutes."
+        ],
+        "fr": [
+          "Le handball est régi par les Règles de jeu de l'IHF, qui couvrent tout, des dimensions du terrain et de la règle des trois pas aux sanctions progressives et au jet de sept mètres. Le livre de règles officiel est publié par la Fédération internationale de handball.",
+          "Si vous découvrez ce sport, notre page Comment jouer couvre l'essentiel en cinq minutes."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Get started", "fr": "Commencez" },
+      "paragraphs": {
+        "en": [
+          "Contact your provincial member federation to find the next officiating clinic near you, or reach out through our contact page for national program questions."
+        ],
+        "fr": [
+          "Communiquez avec votre fédération provinciale membre pour connaître la prochaine clinique d'arbitrage près de chez vous, ou écrivez-nous par la page contact pour les questions sur le programme national."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Find your provincial federation", "fr": "Trouvez votre fédération provinciale" },
+    "href": "/members"
+  },
+  "todo": "Add links to officiating clinics, certification levels and the IHF rulebook PDF used by the federation"
+}

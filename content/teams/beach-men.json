@@ -3,9 +3,15 @@
   "code": "BM",
   "discipline": "beach",
   "gender": "men",
-  "order": 5,
-  "name": { "en": "Beach Handball Men", "fr": "Handball de plage hommes" },
-  "ageGroup": { "en": "Beach national team", "fr": "Équipe nationale de plage" },
+  "order": 7,
+  "name": {
+    "en": "Beach Handball Men",
+    "fr": "Handball de plage hommes"
+  },
+  "ageGroup": {
+    "en": "Beach national team",
+    "fr": "Équipe nationale de plage"
+  },
   "summary": {
     "en": "Canada's men's beach handball team competes in the fast-growing sand discipline, representing the country at continental beach championships.",
     "fr": "L'équipe masculine canadienne de handball de plage évolue dans cette discipline en pleine croissance, représentant le pays aux championnats continentaux de plage."
@@ -28,24 +34,110 @@
     "groups": [
       {
         "key": "gk",
-        "label": { "en": "Goalkeepers", "fr": "Gardiens" },
+        "label": {
+          "en": "Goalkeepers",
+          "fr": "Gardiens"
+        },
         "players": [
-          { "number": 1, "name": null, "position": { "en": "Goalkeeper", "fr": "Gardien" }, "club": null },
-          { "number": 12, "name": null, "position": { "en": "Goalkeeper", "fr": "Gardien" }, "club": null }
+          {
+            "number": 1,
+            "name": null,
+            "position": {
+              "en": "Goalkeeper",
+              "fr": "Gardien"
+            },
+            "club": null
+          },
+          {
+            "number": 12,
+            "name": null,
+            "position": {
+              "en": "Goalkeeper",
+              "fr": "Gardien"
+            },
+            "club": null
+          }
         ]
       },
       {
         "key": "court",
-        "label": { "en": "Court players", "fr": "Joueurs de champ" },
+        "label": {
+          "en": "Court players",
+          "fr": "Joueurs de champ"
+        },
         "players": [
-          { "number": 2, "name": null, "position": { "en": "Left wing", "fr": "Ailier gauche" }, "club": null },
-          { "number": 7, "name": null, "position": { "en": "Right wing", "fr": "Ailier droit" }, "club": null },
-          { "number": 5, "name": null, "position": { "en": "Pivot", "fr": "Pivot" }, "club": null },
-          { "number": 9, "name": null, "position": { "en": "Pivot", "fr": "Pivot" }, "club": null },
-          { "number": 4, "name": null, "position": { "en": "Defender", "fr": "Défenseur" }, "club": null },
-          { "number": 8, "name": null, "position": { "en": "Defender", "fr": "Défenseur" }, "club": null },
-          { "number": 10, "name": null, "position": { "en": "Specialist", "fr": "Spécialiste" }, "club": null },
-          { "number": 11, "name": null, "position": { "en": "Specialist", "fr": "Spécialiste" }, "club": null }
+          {
+            "number": 2,
+            "name": null,
+            "position": {
+              "en": "Left wing",
+              "fr": "Ailier gauche"
+            },
+            "club": null
+          },
+          {
+            "number": 7,
+            "name": null,
+            "position": {
+              "en": "Right wing",
+              "fr": "Ailier droit"
+            },
+            "club": null
+          },
+          {
+            "number": 5,
+            "name": null,
+            "position": {
+              "en": "Pivot",
+              "fr": "Pivot"
+            },
+            "club": null
+          },
+          {
+            "number": 9,
+            "name": null,
+            "position": {
+              "en": "Pivot",
+              "fr": "Pivot"
+            },
+            "club": null
+          },
+          {
+            "number": 4,
+            "name": null,
+            "position": {
+              "en": "Defender",
+              "fr": "Défenseur"
+            },
+            "club": null
+          },
+          {
+            "number": 8,
+            "name": null,
+            "position": {
+              "en": "Defender",
+              "fr": "Défenseur"
+            },
+            "club": null
+          },
+          {
+            "number": 10,
+            "name": null,
+            "position": {
+              "en": "Specialist",
+              "fr": "Spécialiste"
+            },
+            "club": null
+          },
+          {
+            "number": 11,
+            "name": null,
+            "position": {
+              "en": "Specialist",
+              "fr": "Spécialiste"
+            },
+            "club": null
+          }
         ]
       }
     ]

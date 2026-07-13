@@ -3,9 +3,15 @@
   "code": "U18",
   "discipline": "indoor",
   "gender": "women",
-  "order": 4,
-  "name": { "en": "Youth Women (U18)", "fr": "Jeunesse femmes (U18)" },
-  "ageGroup": { "en": "Under-18 national team", "fr": "Équipe nationale des moins de 18 ans" },
+  "order": 5,
+  "name": {
+    "en": "Youth Women (U18)",
+    "fr": "Jeunesse femmes (U18)"
+  },
+  "ageGroup": {
+    "en": "Under-18 national team",
+    "fr": "Équipe nationale des moins de 18 ans"
+  },
   "summary": {
     "en": "Qualified for the 2026 IHF Women's Youth World Championship in Romania, the U18 women represent the youngest tier of Canada's national team pathway.",
     "fr": "Qualifiées pour le Championnat du monde jeunesse féminin IHF 2026 en Roumanie, les U18 représentent le premier échelon du parcours des équipes nationales canadiennes."

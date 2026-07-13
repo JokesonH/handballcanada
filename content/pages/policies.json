@@ -1,0 +1,49 @@
+{
+  "slug": "policies",
+  "ghost": "Rules",
+  "title": { "en": "Policies", "fr": "Politiques" },
+  "subtitle": {
+    "en": "The policies that govern Handball Canada — safe sport, conduct, governance and operations.",
+    "fr": "Les politiques qui régissent Handball Canada — sport sécuritaire, conduite, gouvernance et opérations."
+  },
+  "sections": [
+    {
+      "heading": { "en": "Safe sport", "fr": "Sport sécuritaire" },
+      "paragraphs": {
+        "en": [
+          "Handball Canada is committed to providing a safe, inclusive environment for every participant — athletes, coaches, officials and volunteers. Our safe sport framework aligns with the standards expected of national sport organizations in Canada, including codes of conduct and screening, discipline and complaint procedures."
+        ],
+        "fr": [
+          "Handball Canada s'engage à offrir un environnement sécuritaire et inclusif à chaque participant — athlètes, entraîneurs, officiels et bénévoles. Notre cadre de sport sécuritaire s'aligne sur les normes attendues des organismes nationaux de sport au Canada, incluant les codes de conduite ainsi que les procédures de filtrage, de discipline et de plainte."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Governance documents", "fr": "Documents de gouvernance" },
+      "paragraphs": {
+        "en": [
+          "Following the adoption of the modernized governance framework in 2026, the federation's governing documents are being updated. Bylaws, policies and annual reports will be published on this page as they are finalized."
+        ],
+        "fr": [
+          "À la suite de l'adoption du cadre de gouvernance modernisé en 2026, les documents de gouvernance de la fédération sont en cours de mise à jour. Les règlements, politiques et rapports annuels seront publiés sur cette page dès leur finalisation."
+        ]
+      }
+    },
+    {
+      "heading": { "en": "Questions or concerns", "fr": "Questions ou préoccupations" },
+      "paragraphs": {
+        "en": [
+          "To report a concern or ask about any policy, contact the federation through the contact page. Matters involving safe sport can also be directed to the independent mechanisms available to Canadian sport participants."
+        ],
+        "fr": [
+          "Pour signaler une préoccupation ou poser une question sur une politique, communiquez avec la fédération par la page contact. Les questions de sport sécuritaire peuvent aussi être dirigées vers les mécanismes indépendants offerts aux participants du sport canadien."
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "label": { "en": "Contact us", "fr": "Contactez-nous" },
+    "href": "/contact"
+  },
+  "todo": "Upload and link the actual policy PDFs (bylaws, code of conduct, safe sport, screening, discipline/complaints) from federation records"
+}

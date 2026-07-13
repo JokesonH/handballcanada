@@ -34,6 +34,8 @@ export function buildSearchIndex(locale: Locale, dict: Dictionary): SearchEntry[
     { slug: "contact", path: "/contact" },
     { slug: "national-championships", path: "/competitions/national-championships" },
     { slug: "domestic-competitions", path: "/competitions/domestic" },
+    { slug: "referees", path: "/referees" },
+    { slug: "policies", path: "/about/policies" },
   ];
 
   const pages: SearchEntry[] = [

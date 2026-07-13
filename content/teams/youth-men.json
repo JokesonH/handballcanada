@@ -1,0 +1,27 @@
+{
+  "slug": "youth-men",
+  "code": "U19",
+  "discipline": "indoor",
+  "gender": "men",
+  "order": 6,
+  "name": { "en": "Youth Men", "fr": "Jeunesse hommes" },
+  "ageGroup": { "en": "Youth national team", "fr": "Équipe nationale jeunesse" },
+  "summary": {
+    "en": "The youth men's program is the first stage of the national team pathway for Canada's most promising young male players.",
+    "fr": "Le programme jeunesse masculin est la première étape du parcours des équipes nationales pour les jeunes joueurs canadiens les plus prometteurs."
+  },
+  "program": {
+    "en": [
+      "The Youth Men's National Team introduces Canada's best young players to international handball, competing in continental youth events on the pathway to IHF youth and junior World Championships.",
+      "Athletes are identified through their clubs and provincial teams, with national camps announced on this site and through the member federations.",
+      "The program feeds directly into the U21 junior team and, ultimately, the senior men's program."
+    ],
+    "fr": [
+      "L'équipe nationale masculine jeunesse initie les meilleurs jeunes joueurs du Canada au handball international, participant aux événements continentaux jeunesse sur le parcours menant aux Championnats du monde jeunesse et junior de l'IHF.",
+      "Les athlètes sont repérés par leurs clubs et leurs équipes provinciales, et les camps nationaux sont annoncés sur ce site et par les fédérations membres.",
+      "Le programme alimente directement l'équipe junior U21 et, ultimement, le programme senior masculin."
+    ]
+  },
+  "roster": [],
+  "todo": "Confirm age category (U17/U19), recent competitions, roster and staff"
+}

@@ -23,7 +23,9 @@
     "nationalChampionships": "Championnats nationaux",
     "domesticCompetitions": "Compétitions nationales",
     "allTeams": "Toutes les équipes",
-    "tv": "HC TV"
+    "tv": "HC TV",
+    "referees": "Arbitres et officiels",
+    "policies": "Politiques"
   },
   "home": {
     "tickerLabel": "En bref",

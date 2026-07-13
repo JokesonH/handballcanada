@@ -1,0 +1,27 @@
+{
+  "slug": "junior-men",
+  "code": "U21",
+  "discipline": "indoor",
+  "gender": "men",
+  "order": 4,
+  "name": { "en": "Junior Men (U21)", "fr": "Juniors hommes (U21)" },
+  "ageGroup": { "en": "Under-21 national team", "fr": "Équipe nationale des moins de 21 ans" },
+  "summary": {
+    "en": "Canada's U21 men compete on the world junior stage, most recently at the IHF Men's Junior World Championship.",
+    "fr": "Les U21 canadiens évoluent sur la scène mondiale junior, plus récemment au Championnat du monde junior masculin de l'IHF."
+  },
+  "program": {
+    "en": [
+      "The Men's U21 National Team is the final step between youth handball and the senior program, and it has carried Canada's colours at the IHF Men's Junior (U21) World Championship.",
+      "The junior program gives Canada's top under-21 athletes structured international competition, preparing the core of the future senior men's team.",
+      "Selection runs through provincial programs and national identification camps; roster announcements are published in the news section."
+    ],
+    "fr": [
+      "L'équipe nationale masculine U21 est la dernière étape entre le handball jeunesse et le programme senior, et elle a porté les couleurs du Canada au Championnat du monde junior (U21) masculin de l'IHF.",
+      "Le programme junior offre aux meilleurs athlètes canadiens de moins de 21 ans une compétition internationale structurée, préparant le noyau de la future équipe senior.",
+      "La sélection passe par les programmes provinciaux et les camps d'identification nationaux; les alignements sont annoncés dans la section actualités."
+    ]
+  },
+  "roster": [],
+  "todo": "Confirm most recent U21 World Championship participation details, add roster and results"
+}

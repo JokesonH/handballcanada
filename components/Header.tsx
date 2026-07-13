@@ -47,8 +47,25 @@ function navItems(locale: Locale, dict: Dictionary, teamLinks: NavChild[]): NavI
       ],
     },
     { href: `/${locale}/videos`, label: dict.nav.tv },
-    { href: `/${locale}/how-to-play`, label: dict.nav.howToPlay },
-    { href: `/${locale}/about`, label: dict.nav.about },
+    {
+      href: `/${locale}/how-to-play`,
+      label: dict.nav.howToPlay,
+      children: [
+        { href: `/${locale}/how-to-play`, label: dict.nav.howToPlay },
+        { href: `/${locale}/referees`, label: dict.nav.referees },
+        { href: `/${locale}/members`, label: dict.nav.findAClub },
+      ],
+    },
+    {
+      href: `/${locale}/about`,
+      label: dict.nav.about,
+      children: [
+        { href: `/${locale}/about`, label: dict.nav.about },
+        { href: `/${locale}/about/board`, label: dict.nav.board },
+        { href: `/${locale}/about/policies`, label: dict.nav.policies },
+        { href: `/${locale}/contact`, label: dict.nav.contact },
+      ],
+    },
   ];
 }
 

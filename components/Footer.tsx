@@ -36,11 +36,13 @@ export default function Footer({ locale, dict }: Props) {
   const federationLinks = [
     { href: `/${locale}/about`, label: dict.nav.about },
     { href: `/${locale}/about/board`, label: dict.nav.board },
+    { href: `/${locale}/about/policies`, label: dict.nav.policies },
     { href: `/${locale}/news`, label: dict.nav.news },
     { href: `/${locale}/contact`, label: dict.nav.contact },
   ];
   const involvedLinks = [
     { href: `/${locale}/how-to-play`, label: dict.nav.howToPlay },
+    { href: `/${locale}/referees`, label: dict.nav.referees },
     { href: `/${locale}/members`, label: dict.nav.findAClub },
     { href: `/${locale}/registration`, label: dict.nav.register },
     { href: `/${locale}/competitions`, label: dict.nav.competitions },

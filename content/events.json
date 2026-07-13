@@ -1,35 +1,5 @@
 [
   {
-    "id": "panam-qualifier-2026",
-    "competition": {
-      "en": "2027 Pan American Games qualification",
-      "fr": "Qualifications — Jeux panaméricains 2027"
-    },
-    "matchup": { "home": "USA", "away": "CAN" },
-    "dateLabel": { "en": "Aug 7–8, 2026", "fr": "7–8 août 2026" },
-    "venue": { "en": "Sioux City, USA", "fr": "Sioux City, É.-U." },
-    "note": {
-      "en": "Two-game series — the first step on the road to LA28",
-      "fr": "Série de deux matchs — première étape vers LA28"
-    },
-    "href": "/competitions/fixtures"
-  },
-  {
-    "id": "u20-worlds-2026",
-    "competition": {
-      "en": "IHF Women's Junior (U20) World Championship",
-      "fr": "Championnat du monde junior féminin (U20) de l'IHF"
-    },
-    "matchup": { "home": "CAN", "away": "TPE" },
-    "dateLabel": { "en": "Jul 29 – Aug 9, 2026", "fr": "29 juil. – 9 août 2026" },
-    "venue": { "en": "Jinzhong, China", "fr": "Jinzhong, Chine" },
-    "note": {
-      "en": "Canada opens against Chinese Taipei",
-      "fr": "Le Canada affronte le Taipei chinois en ouverture"
-    },
-    "href": "/news/u18-u20-women-qualify-2026-worlds"
-  },
-  {
     "id": "u18-worlds-2026",
     "competition": {
       "en": "IHF Women's Youth (U18) World Championship",
@@ -43,5 +13,35 @@
       "fr": "Groupe E : le Canada affronte la Suède, la Hongrie et la Tunisie"
     },
     "href": "/competitions/fixtures"
+  },
+  {
+    "id": "panam-qualifier-2026-g1",
+    "competition": {
+      "en": "2027 Pan American Games qualification",
+      "fr": "Qualifications — Jeux panaméricains 2027"
+    },
+    "matchup": { "home": "USA", "away": "CAN" },
+    "dateLabel": { "en": "Aug 7, 2026 — 7 p.m.", "fr": "7 août 2026 — 19 h" },
+    "venue": { "en": "Sioux City, USA", "fr": "Sioux City, É.-U." },
+    "note": {
+      "en": "Game 1 — the road to LA28 begins",
+      "fr": "Match 1 — la route vers LA28 commence"
+    },
+    "href": "/news/panam-qualifier-2026-sioux-city"
+  },
+  {
+    "id": "panam-qualifier-2026-g2",
+    "competition": {
+      "en": "2027 Pan American Games qualification",
+      "fr": "Qualifications — Jeux panaméricains 2027"
+    },
+    "matchup": { "home": "USA", "away": "CAN" },
+    "dateLabel": { "en": "Aug 8, 2026 — 3 p.m.", "fr": "8 août 2026 — 15 h" },
+    "venue": { "en": "Sioux City, USA", "fr": "Sioux City, É.-U." },
+    "note": {
+      "en": "Game 2 — winner advances to the 2027 Pan Am Games",
+      "fr": "Match 2 — le vainqueur accède aux Jeux panaméricains 2027"
+    },
+    "href": "/news/panam-qualifier-2026-sioux-city"
   }
 ]

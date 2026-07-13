@@ -1,22 +1,49 @@
 [
   {
-    "id": "u20-worlds-2026-can-tpe",
-    "startsAt": "2026-07-29T10:00:00+08:00",
-    "dateLabel": { "en": "Jul 29, 2026", "fr": "29 juillet 2026" },
+    "id": "u20-worlds-2026-rou-can",
+    "startsAt": "2026-06-24T12:00:00+08:00",
+    "dateLabel": { "en": "Jun 24, 2026", "fr": "24 juin 2026" },
     "competition": {
       "en": "IHF Women's Junior (U20) World Championship",
       "fr": "Championnat du monde junior féminin (U20) IHF"
     },
-    "stage": { "en": "Group stage", "fr": "Phase de groupes" },
-    "home": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
-    "away": {
-      "code": "TPE",
-      "name": { "en": "Chinese Taipei", "fr": "Taipei chinois" }
-    },
-    "score": null,
+    "stage": { "en": "Group C", "fr": "Groupe C" },
+    "home": { "code": "ROU", "name": { "en": "Romania", "fr": "Roumanie" } },
+    "away": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "score": { "home": 40, "away": 15 },
     "venue": { "en": "Jinzhong, China", "fr": "Jinzhong, Chine" },
-    "href": "/news/u18-u20-women-qualify-2026-worlds",
-    "todo": "Confirm throw-off time; add remaining U20 group opponents when the draw details are published"
+    "href": "/news/u20-worlds-2026-recap",
+    "todo": "Confirm throw-off times; add Canada's Presidents Cup results and final placement"
+  },
+  {
+    "id": "u20-worlds-2026-can-ger",
+    "startsAt": "2026-06-25T12:00:00+08:00",
+    "dateLabel": { "en": "Jun 25, 2026", "fr": "25 juin 2026" },
+    "competition": {
+      "en": "IHF Women's Junior (U20) World Championship",
+      "fr": "Championnat du monde junior féminin (U20) IHF"
+    },
+    "stage": { "en": "Group C", "fr": "Groupe C" },
+    "home": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "away": { "code": "GER", "name": { "en": "Germany", "fr": "Allemagne" } },
+    "score": { "home": 11, "away": 46 },
+    "venue": { "en": "Jinzhong, China", "fr": "Jinzhong, Chine" },
+    "href": "/news/u20-worlds-2026-recap"
+  },
+  {
+    "id": "u20-worlds-2026-bra-can",
+    "startsAt": "2026-06-27T12:00:00+08:00",
+    "dateLabel": { "en": "Jun 27, 2026", "fr": "27 juin 2026" },
+    "competition": {
+      "en": "IHF Women's Junior (U20) World Championship",
+      "fr": "Championnat du monde junior féminin (U20) IHF"
+    },
+    "stage": { "en": "Group C", "fr": "Groupe C" },
+    "home": { "code": "BRA", "name": { "en": "Brazil", "fr": "Brésil" } },
+    "away": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "score": { "home": 39, "away": 16 },
+    "venue": { "en": "Jinzhong, China", "fr": "Jinzhong, Chine" },
+    "href": "/news/u20-worlds-2026-recap"
   },
   {
     "id": "u18-worlds-2026-swe-can",

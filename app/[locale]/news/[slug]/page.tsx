@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CourtLines from "@/components/CourtLines";
 import NewsCard from "@/components/NewsCard";
+import ShareRow from "@/components/ShareRow";
 import { getAllNews, getNewsItem } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 import { getDictionary, isLocale } from "@/lib/i18n";
@@ -82,9 +83,17 @@ export default async function ArticlePage({
             </p>
           ))}
         </div>
+        <div className="mt-10 border-t border-white/10 pt-6">
+          <ShareRow
+            url={`https://handballcanada.ca/${locale}/news/${item.slug}`}
+            title={text.title}
+            dict={dict}
+          />
+        </div>
+
         <Link
           href={`/${locale}/news`}
-          className="kicker mt-12 inline-flex items-center gap-2 text-hc-mist transition-colors hover:text-white"
+          className="kicker mt-10 inline-flex items-center gap-2 text-hc-mist transition-colors hover:text-white"
         >
           <span aria-hidden className="text-hc-red">←</span>
           {dict.news.backToNews}

@@ -24,10 +24,14 @@ Everything an editor would touch is in `content/`:
 | --- | --- |
 | `content/news/*.json` | News articles (one file per article, EN + FR in the same file) |
 | `content/events.json` | "Upcoming events" strip on the homepage & competitions page |
-| `content/videos.json` | Handball Canada TV rail (currently links to YouTube channel) |
-| `content/teams/*.json` | National team pages (program text, rosters) |
+| `content/matches.json` | Fixtures & Results page + the homepage next-match countdown |
+| `content/honours.json` | Honours page (milestones + roll of honour) |
+| `content/videos.json` | HC TV video hub — set `youtubeId` to embed a player |
+| `content/teams/*.json` | National team pages, squads, and player profiles |
 | `content/pages/*.json` | Long-form pages (how to play, about, board, registration, contact…) |
 | `content/site.json` | Socials, member federations, partners, registration URL |
+
+A build-time search index (news, teams, pages, both locales) powers the nav search overlay (`⌘K`). Player profile pages generate automatically for any squad player whose `name` is filled in; add a result to a match in `matches.json` by setting `"score": { "home": 32, "away": 28 }` and it moves to the Results tab.
 
 UI strings (nav, buttons, labels) live in `dictionaries/en.json` and `dictionaries/fr.json`.
 
@@ -43,7 +47,7 @@ Some details could not be recovered from the old site (it renders everything cli
 grep -rn '"todo"' content/
 ```
 
-Highlights: exact publication dates on migrated news, current board member names, official contact email/address, past national champions, real YouTube video IDs, and website links for the provincial federations.
+Highlights: exact publication dates on migrated news, current board member names, official contact email/address, the national-championships roll of honour, real YouTube video IDs, remaining 2026 Worlds fixtures, newsletter provider wiring (the footer form is UI-only), and website links for the provincial federations.
 
 The senior and beach teams have PSG-style squad pages (`/teams/<slug>/squad`) driven by the `squad` block in their `content/teams/*.json` file. Each entry is a jersey slot — replace `"name": null` with the player's name (and optionally `"club"`) to fill it; cards render "To be announced" until then. Filter groups and position labels are stored per team so the French stays gender-correct.
 

@@ -5,6 +5,7 @@ import Ticker from "@/components/Ticker";
 import EventsStrip from "@/components/home/EventsStrip";
 import HeroCarousel from "@/components/home/HeroCarousel";
 import NextMatchBanner from "@/components/home/NextMatchBanner";
+import PartnerBand from "@/components/home/PartnerBand";
 import PromoCards from "@/components/home/PromoCards";
 import VideoRail from "@/components/home/VideoRail";
 import {
@@ -56,6 +57,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
 
       <VideoRail videos={videos} locale={locale} dict={dict} />
       <PromoCards locale={locale} dict={dict} />
+      <PartnerBand dict={dict} />
     </>
   );
 }

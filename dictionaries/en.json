@@ -141,6 +141,19 @@
     "todoContent": "This section is being finalized — content coming soon.",
     "externalRegistration": "Opens the Handball Canada registration platform"
   },
+  "newsletter": {
+    "title": "Stay in the game",
+    "sub": "News from the national teams, competitions and programs — straight to your inbox.",
+    "emailLabel": "Email address",
+    "placeholder": "you@example.com",
+    "cta": "Sign up",
+    "done": "Thanks — you're on the list."
+  },
+  "share": {
+    "label": "Share",
+    "copy": "Copy link",
+    "copied": "Copied!"
+  },
   "search": {
     "label": "Search",
     "placeholder": "Search news, teams, pages…",

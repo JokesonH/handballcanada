@@ -9,7 +9,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/news",
     "/teams",
+    "/videos",
     "/competitions",
+    "/competitions/fixtures",
+    "/competitions/honours",
     "/competitions/national-championships",
     "/competitions/domestic",
     "/how-to-play",
@@ -25,6 +28,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const teamPaths = [
     ...teams.map((team) => `/teams/${team.slug}`),
     ...teams.filter((team) => team.squad).map((team) => `/teams/${team.slug}/squad`),
+    ...teams.flatMap((team) =>
+      (team.squad?.groups ?? []).flatMap((group) =>
+        group.players
+          .filter((player) => player.name !== null)
+          .map((player) => `/teams/${team.slug}/players/${player.number}`)
+      )
+    ),
   ];
 
   return [...staticPaths, ...newsPaths, ...teamPaths].flatMap((path) =>

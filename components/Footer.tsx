@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NewsletterSignup from "@/components/NewsletterSignup";
 import site from "@/content/site.json";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/locales";
@@ -51,6 +52,10 @@ export default function Footer({ locale, dict }: Props) {
       <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-hc-red via-hc-red-bright to-hc-maple" />
 
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mb-14">
+          <NewsletterSignup dict={dict} />
+        </div>
+
         <div className="grid gap-12 lg:grid-cols-[2fr_1fr_1fr_1.5fr]">
           <div>
             <Link href={`/${locale}`} className="flex items-center gap-4">

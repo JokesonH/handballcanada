@@ -47,6 +47,17 @@ Highlights: exact publication dates on migrated news, current board member names
 
 The senior and beach teams have PSG-style squad pages (`/teams/<slug>/squad`) driven by the `squad` block in their `content/teams/*.json` file. Each entry is a jersey slot — replace `"name": null` with the player's name (and optionally `"club"`) to fill it; cards render "To be announced" until then. Filter groups and position labels are stored per team so the French stays gender-correct.
 
+### Adding photos
+
+The site is image-ready but ships with branded placeholder art. Drop licensed photos into `public/images/` and reference them from content JSON — components switch from placeholder art to the photo automatically (with a dark wash so type stays readable):
+
+| Where | JSON field | Suggested size |
+| --- | --- | --- |
+| News article + its cards + hero | `"image": "/images/news/<slug>.jpg"` in `content/news/*.json` | 1600×1000 |
+| Team page hero | `"image": "/images/teams/<slug>.jpg"` in `content/teams/*.json` | 1920×800 |
+| Player squad cards | `"photo": "/images/players/<file>.jpg"` on a squad player | 600×800 (portrait) |
+| Partner logos | `public/images/partners/<name>.svg` | any (SVG preferred) |
+
 ## i18n
 
 - `proxy.ts` redirects `/` to `/en` or `/fr` based on `Accept-Language`, and honours legacy `?lang=fr-CA` links from the old site.

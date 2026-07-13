@@ -39,6 +39,7 @@ export default async function TeamPage({
         title={team.name[locale]}
         subtitle={team.summary[locale]}
         ghost={team.code}
+        image={team.image}
       />
 
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-12 sm:px-6 lg:grid-cols-[2fr_1fr] lg:px-8 lg:py-16">

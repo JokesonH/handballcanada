@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import MapleLeaf from "@/components/MapleLeaf";
 import type { NewsItem } from "@/lib/content";
@@ -16,9 +17,23 @@ export default function Hero({ item, locale, dict }: Props) {
 
   return (
     <section className="grain relative overflow-hidden bg-hc-maple-deep">
+      {item.image && (
+        <Image
+          src={item.image}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+      )}
       {/* Arena wash: maple red into night, under stadium lights */}
       <div
-        className="spotlight absolute inset-0 bg-gradient-to-br from-hc-maple via-hc-maple-deep to-hc-night"
+        className={`spotlight absolute inset-0 bg-gradient-to-br ${
+          item.image
+            ? "from-hc-night/75 via-hc-maple-deep/60 to-hc-night/90"
+            : "from-hc-maple via-hc-maple-deep to-hc-night"
+        }`}
         aria-hidden
       />
       {/* Giant leaf motif, cropped off the right edge */}

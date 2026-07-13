@@ -17,8 +17,8 @@ export default function EventsStrip({ events, locale, dict }: Props) {
         <SectionHeading
           kicker={dict.events.upcoming}
           title={dict.home.upcomingEvents}
-          href={`/${locale}/competitions`}
-          linkLabel={dict.home.allCompetitions}
+          href={`/${locale}/competitions/fixtures`}
+          linkLabel={dict.matches.fullSchedule}
         />
 
         <div className="no-scrollbar reveal -mx-4 flex snap-x gap-4 overflow-x-auto px-4 sm:mx-0 sm:px-0 lg:grid lg:grid-cols-3 lg:gap-6">

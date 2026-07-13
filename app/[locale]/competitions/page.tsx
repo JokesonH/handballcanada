@@ -23,15 +23,25 @@ export default async function CompetitionsPage({
   const dict = await getDictionary(locale);
   const events = getEvents();
 
+  const nationals = getPage("national-championships");
+  const domestic = getPage("domestic-competitions");
   const cards = [
     {
+      href: `/${locale}/competitions/fixtures`,
+      title: dict.matches.title,
+      subtitle: dict.matches.subtitle,
+      code: "VS",
+    },
+    {
       href: `/${locale}/competitions/national-championships`,
-      page: getPage("national-championships"),
+      title: nationals.title[locale],
+      subtitle: nationals.subtitle?.[locale],
       code: "NC",
     },
     {
       href: `/${locale}/competitions/domestic`,
-      page: getPage("domestic-competitions"),
+      title: domestic.title[locale],
+      subtitle: domestic.subtitle?.[locale],
       code: "DC",
     },
   ];
@@ -44,7 +54,7 @@ export default async function CompetitionsPage({
         ghost="Compete"
       />
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div className="grid gap-4 sm:grid-cols-2 lg:gap-6">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {cards.map((card) => (
             <Link
               key={card.href}
@@ -56,11 +66,11 @@ export default async function CompetitionsPage({
               </span>
               <div className="relative">
                 <h2 className="display-title text-3xl text-white transition-colors group-hover:text-hc-red-bright">
-                  {card.page.title[locale]}
+                  {card.title}
                 </h2>
-                {card.page.subtitle && (
+                {card.subtitle && (
                   <p className="mt-3 max-w-md text-sm leading-relaxed text-hc-mist">
-                    {card.page.subtitle[locale]}
+                    {card.subtitle}
                   </p>
                 )}
               </div>

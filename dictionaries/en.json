@@ -26,6 +26,8 @@
   "home": {
     "tickerLabel": "Latest",
     "heroKicker": "Featured",
+    "previous": "Previous story",
+    "next": "Next story",
     "heroCta": "Read the story",
     "upcomingEvents": "Upcoming Events",
     "allCompetitions": "All competitions",
@@ -82,6 +84,23 @@
     "name": "Name",
     "position": "Position",
     "club": "Club / Province"
+  },
+  "matches": {
+    "title": "Fixtures & Results",
+    "subtitle": "Canada's national teams on the calendar — upcoming fixtures and final scores.",
+    "upcoming": "Upcoming",
+    "results": "Results",
+    "allCompetitions": "All competitions",
+    "tbd": "TBD",
+    "emptyUpcoming": "No fixtures scheduled at the moment. Check back soon.",
+    "emptyResults": "Results will appear here after Canada's next matches.",
+    "matchCentre": "Match centre",
+    "nextMatch": "Next match",
+    "days": "Days",
+    "hours": "Hrs",
+    "minutes": "Min",
+    "seconds": "Sec",
+    "fullSchedule": "Full schedule"
   },
   "competitions": {
     "title": "Competitions",

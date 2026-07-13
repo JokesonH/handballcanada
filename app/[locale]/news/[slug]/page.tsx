@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CourtLines from "@/components/CourtLines";
@@ -37,8 +38,22 @@ export default async function ArticlePage({
   return (
     <>
       <header className="grain relative overflow-hidden border-b border-white/10 bg-hc-maple-deep">
+        {item.image && (
+          <Image
+            src={item.image}
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        )}
         <div
-          className="spotlight absolute inset-0 bg-gradient-to-br from-hc-maple/70 via-hc-maple-deep to-hc-night"
+          className={`spotlight absolute inset-0 bg-gradient-to-br ${
+            item.image
+              ? "from-hc-night/80 via-hc-maple-deep/70 to-hc-night/90"
+              : "from-hc-maple/70 via-hc-maple-deep to-hc-night"
+          }`}
           aria-hidden
         />
         <CourtLines className="absolute inset-y-0 right-0 h-full w-[55%] opacity-50" />

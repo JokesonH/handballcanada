@@ -26,6 +26,8 @@
   "home": {
     "tickerLabel": "En bref",
     "heroKicker": "À la une",
+    "previous": "Article précédent",
+    "next": "Article suivant",
     "heroCta": "Lire l'article",
     "upcomingEvents": "Événements à venir",
     "allCompetitions": "Toutes les compétitions",
@@ -82,6 +84,23 @@
     "name": "Nom",
     "position": "Position",
     "club": "Club / Province"
+  },
+  "matches": {
+    "title": "Calendrier et résultats",
+    "subtitle": "Les équipes nationales du Canada au calendrier — matchs à venir et scores finaux.",
+    "upcoming": "À venir",
+    "results": "Résultats",
+    "allCompetitions": "Toutes les compétitions",
+    "tbd": "À dét.",
+    "emptyUpcoming": "Aucun match au calendrier pour le moment. Revenez bientôt.",
+    "emptyResults": "Les résultats apparaîtront ici après les prochains matchs du Canada.",
+    "matchCentre": "Centre de match",
+    "nextMatch": "Prochain match",
+    "days": "Jours",
+    "hours": "Hres",
+    "minutes": "Min",
+    "seconds": "Sec",
+    "fullSchedule": "Calendrier complet"
   },
   "competitions": {
     "title": "Compétitions",

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "u20-worlds-2026-can-tpe",
+    "startsAt": "2026-07-29T10:00:00+08:00",
+    "dateLabel": { "en": "Jul 29, 2026", "fr": "29 juillet 2026" },
+    "competition": {
+      "en": "IHF Women's Junior (U20) World Championship",
+      "fr": "Championnat du monde junior féminin (U20) IHF"
+    },
+    "stage": { "en": "Group stage", "fr": "Phase de groupes" },
+    "home": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "away": {
+      "code": "TPE",
+      "name": { "en": "Chinese Taipei", "fr": "Taipei chinois" }
+    },
+    "score": null,
+    "venue": { "en": "Jinzhong, China", "fr": "Jinzhong, Chine" },
+    "href": "/news/u18-u20-women-qualify-2026-worlds",
+    "todo": "Confirm throw-off time; add remaining group opponents when the draw details are published"
+  },
+  {
+    "id": "u18-worlds-2026-can-opener",
+    "startsAt": null,
+    "dateLabel": { "en": "Summer 2026", "fr": "Été 2026" },
+    "competition": {
+      "en": "IHF Women's Youth (U18) World Championship",
+      "fr": "Championnat du monde jeunesse féminin (U18) IHF"
+    },
+    "stage": { "en": "Group stage", "fr": "Phase de groupes" },
+    "home": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "away": null,
+    "score": null,
+    "venue": { "en": "Romania", "fr": "Roumanie" },
+    "href": "/news/u18-u20-women-qualify-2026-worlds",
+    "todo": "Confirm U18 Worlds schedule, opponents and host city"
+  }
+]

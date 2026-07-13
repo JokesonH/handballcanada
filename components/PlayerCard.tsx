@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { SquadPlayer } from "@/lib/content";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/locales";
@@ -38,6 +39,21 @@ export default function PlayerCard({ player, groupIndex, locale, dict }: Props) 
     <article
       className={`group relative flex aspect-[3/4] flex-col justify-end overflow-hidden border border-white/10 bg-gradient-to-b p-4 transition-all hover:-translate-y-1 hover:border-hc-red ${groupGradients[groupIndex % groupGradients.length]}`}
     >
+      {player.photo && (
+        <>
+          <Image
+            src={player.photo}
+            alt=""
+            fill
+            sizes="(min-width: 1024px) 25vw, 50vw"
+            className="object-cover object-top"
+          />
+          <span
+            aria-hidden
+            className="absolute inset-0 bg-gradient-to-t from-hc-night/90 via-transparent to-hc-night/30"
+          />
+        </>
+      )}
       <span aria-hidden className="absolute left-0 top-0 h-10 w-1 bg-hc-red" />
       <span
         aria-hidden
@@ -49,7 +65,9 @@ export default function PlayerCard({ player, groupIndex, locale, dict }: Props) 
       >
         {player.number}
       </span>
-      <Jersey className="absolute left-1/2 top-1/2 w-24 -translate-x-1/2 -translate-y-1/2 sm:w-28" />
+      {!player.photo && (
+        <Jersey className="absolute left-1/2 top-1/2 w-24 -translate-x-1/2 -translate-y-1/2 sm:w-28" />
+      )}
 
       <div className="relative">
         <p className="display-title text-sm text-hc-red-bright">#{player.number}</p>

@@ -3,10 +3,17 @@ import NewsCard from "@/components/NewsCard";
 import SectionHeading from "@/components/SectionHeading";
 import Ticker from "@/components/Ticker";
 import EventsStrip from "@/components/home/EventsStrip";
-import Hero from "@/components/home/Hero";
+import HeroCarousel from "@/components/home/HeroCarousel";
+import NextMatchBanner from "@/components/home/NextMatchBanner";
 import PromoCards from "@/components/home/PromoCards";
 import VideoRail from "@/components/home/VideoRail";
-import { getAllNews, getEvents, getFeaturedNews, getVideos } from "@/lib/content";
+import {
+  getAllNews,
+  getEvents,
+  getFeaturedNews,
+  getNextMatch,
+  getVideos,
+} from "@/lib/content";
 import { getDictionary, isLocale } from "@/lib/i18n";
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
@@ -15,15 +22,19 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const dict = await getDictionary(locale);
 
   const featured = getFeaturedNews();
-  const news = getAllNews()
-    .filter((item) => item.slug !== featured.slug)
-    .slice(0, 3);
+  const all = getAllNews();
+  const heroItems = [featured, ...all.filter((i) => i.slug !== featured.slug)].slice(0, 3);
+  const news = all.filter((item) => item.slug !== featured.slug).slice(0, 3);
   const events = getEvents();
   const videos = getVideos();
+  const nextMatch = getNextMatch();
 
   return (
     <>
-      <Hero item={featured} locale={locale} dict={dict} />
+      <HeroCarousel items={heroItems} locale={locale} dict={dict} />
+      {nextMatch && (
+        <NextMatchBanner match={nextMatch} locale={locale} dict={dict} />
+      )}
       <Ticker items={getAllNews()} locale={locale} dict={dict} />
       <EventsStrip events={events} locale={locale} dict={dict} />
 

@@ -41,6 +41,11 @@ export type SquadPlayer = {
   name: string | null;
   position: Localized;
   club: string | null;
+  /** e.g. /images/players/senior-women-7.jpg */
+  photo?: string;
+  height?: string;
+  birthplace?: string;
+  caps?: number;
 };
 
 export type SquadGroup = {
@@ -65,6 +70,8 @@ export type TeamItem = {
   summary: Localized;
   program: Localized<string[]>;
   highlight?: Localized;
+  /** e.g. /images/teams/senior-women.jpg — shown in the team page hero */
+  image?: string;
   roster: { number: number; name: string; position: string; club: string }[];
   squad?: Squad;
   todo?: string;
@@ -120,6 +127,46 @@ export function getTeams(): TeamItem[] {
 
 export function getTeam(slug: string): TeamItem | undefined {
   return getTeams().find((team) => team.slug === slug);
+}
+
+export type MatchTeam = {
+  code: string;
+  name: Localized;
+};
+
+export type MatchItem = {
+  id: string;
+  /** ISO datetime; null when not yet scheduled */
+  startsAt: string | null;
+  dateLabel: Localized;
+  competition: Localized;
+  stage: Localized;
+  home: MatchTeam;
+  /** null renders as "TBD" */
+  away: MatchTeam | null;
+  /** null = upcoming fixture; set = final result */
+  score: { home: number; away: number } | null;
+  venue: Localized;
+  href?: string;
+  todo?: string;
+};
+
+export function getMatches(): MatchItem[] {
+  return readJson<MatchItem[]>("matches.json").sort((a, b) => {
+    if (a.startsAt && b.startsAt) return a.startsAt.localeCompare(b.startsAt);
+    return a.startsAt ? -1 : b.startsAt ? 1 : 0;
+  });
+}
+
+/** Next fixture with a known start time in the future (for the countdown). */
+export function getNextMatch(): MatchItem | undefined {
+  const now = Date.now();
+  return getMatches().find(
+    (match) =>
+      match.score === null &&
+      match.startsAt !== null &&
+      new Date(match.startsAt).getTime() > now
+  );
 }
 
 export type PageSection = {

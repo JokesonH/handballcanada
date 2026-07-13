@@ -16,22 +16,96 @@
     "score": null,
     "venue": { "en": "Jinzhong, China", "fr": "Jinzhong, Chine" },
     "href": "/news/u18-u20-women-qualify-2026-worlds",
-    "todo": "Confirm throw-off time; add remaining group opponents when the draw details are published"
+    "todo": "Confirm throw-off time; add remaining U20 group opponents when the draw details are published"
   },
   {
-    "id": "u18-worlds-2026-can-opener",
-    "startsAt": null,
-    "dateLabel": { "en": "Summer 2026", "fr": "Été 2026" },
+    "id": "u18-worlds-2026-swe-can",
+    "startsAt": "2026-07-29T14:00:00+03:00",
+    "dateLabel": { "en": "Jul 29, 2026 — 14:00", "fr": "29 juillet 2026 — 14 h" },
     "competition": {
       "en": "IHF Women's Youth (U18) World Championship",
       "fr": "Championnat du monde jeunesse féminin (U18) IHF"
     },
-    "stage": { "en": "Group stage", "fr": "Phase de groupes" },
-    "home": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
-    "away": null,
+    "stage": { "en": "Group E", "fr": "Groupe E" },
+    "home": { "code": "SWE", "name": { "en": "Sweden", "fr": "Suède" } },
+    "away": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
     "score": null,
-    "venue": { "en": "Romania", "fr": "Roumanie" },
-    "href": "/news/u18-u20-women-qualify-2026-worlds",
-    "todo": "Confirm U18 Worlds schedule, opponents and host city"
+    "venue": {
+      "en": "Pitești Arena, Pitești, Romania",
+      "fr": "Pitești Arena, Pitești, Roumanie"
+    },
+    "href": "/news/u18-u20-women-qualify-2026-worlds"
+  },
+  {
+    "id": "u18-worlds-2026-can-hun",
+    "startsAt": "2026-07-30T11:45:00+03:00",
+    "dateLabel": { "en": "Jul 30, 2026 — 11:45", "fr": "30 juillet 2026 — 11 h 45" },
+    "competition": {
+      "en": "IHF Women's Youth (U18) World Championship",
+      "fr": "Championnat du monde jeunesse féminin (U18) IHF"
+    },
+    "stage": { "en": "Group E", "fr": "Groupe E" },
+    "home": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "away": { "code": "HUN", "name": { "en": "Hungary", "fr": "Hongrie" } },
+    "score": null,
+    "venue": {
+      "en": "Pitești Arena, Pitești, Romania",
+      "fr": "Pitești Arena, Pitești, Roumanie"
+    },
+    "href": "/news/u18-u20-women-qualify-2026-worlds"
+  },
+  {
+    "id": "u18-worlds-2026-tun-can",
+    "startsAt": "2026-08-01T11:45:00+03:00",
+    "dateLabel": { "en": "Aug 1, 2026 — 11:45", "fr": "1er août 2026 — 11 h 45" },
+    "competition": {
+      "en": "IHF Women's Youth (U18) World Championship",
+      "fr": "Championnat du monde jeunesse féminin (U18) IHF"
+    },
+    "stage": { "en": "Group E", "fr": "Groupe E" },
+    "home": { "code": "TUN", "name": { "en": "Tunisia", "fr": "Tunisie" } },
+    "away": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "score": null,
+    "venue": {
+      "en": "Pitești Arena, Pitești, Romania",
+      "fr": "Pitești Arena, Pitești, Roumanie"
+    },
+    "href": "/news/u18-u20-women-qualify-2026-worlds"
+  },
+  {
+    "id": "panam-qualifier-2026-usa-can-g1",
+    "startsAt": "2026-08-07T19:00:00-05:00",
+    "dateLabel": { "en": "Aug 7, 2026 — 7 p.m.", "fr": "7 août 2026 — 19 h" },
+    "competition": {
+      "en": "2027 Pan American Games qualification",
+      "fr": "Qualifications — Jeux panaméricains 2027"
+    },
+    "stage": { "en": "Qualifying series · Game 1", "fr": "Série de qualification · Match 1" },
+    "home": { "code": "USA", "name": { "en": "United States", "fr": "États-Unis" } },
+    "away": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "score": null,
+    "venue": {
+      "en": "Long Lines Family Recreation Center, Sioux City, USA",
+      "fr": "Long Lines Family Recreation Center, Sioux City, É.-U."
+    },
+    "href": "/news/panam-qualifier-2026-sioux-city"
+  },
+  {
+    "id": "panam-qualifier-2026-usa-can-g2",
+    "startsAt": "2026-08-08T15:00:00-05:00",
+    "dateLabel": { "en": "Aug 8, 2026 — 3 p.m.", "fr": "8 août 2026 — 15 h" },
+    "competition": {
+      "en": "2027 Pan American Games qualification",
+      "fr": "Qualifications — Jeux panaméricains 2027"
+    },
+    "stage": { "en": "Qualifying series · Game 2", "fr": "Série de qualification · Match 2" },
+    "home": { "code": "USA", "name": { "en": "United States", "fr": "États-Unis" } },
+    "away": { "code": "CAN", "name": { "en": "Canada", "fr": "Canada" } },
+    "score": null,
+    "venue": {
+      "en": "Long Lines Family Recreation Center, Sioux City, USA",
+      "fr": "Long Lines Family Recreation Center, Sioux City, É.-U."
+    },
+    "href": "/news/panam-qualifier-2026-sioux-city"
   }
 ]

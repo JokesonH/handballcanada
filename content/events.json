@@ -1,5 +1,20 @@
 [
   {
+    "id": "panam-qualifier-2026",
+    "competition": {
+      "en": "2027 Pan American Games qualification",
+      "fr": "Qualifications — Jeux panaméricains 2027"
+    },
+    "matchup": { "home": "USA", "away": "CAN" },
+    "dateLabel": { "en": "Aug 7–8, 2026", "fr": "7–8 août 2026" },
+    "venue": { "en": "Sioux City, USA", "fr": "Sioux City, É.-U." },
+    "note": {
+      "en": "Two-game series — the first step on the road to LA28",
+      "fr": "Série de deux matchs — première étape vers LA28"
+    },
+    "href": "/competitions/fixtures"
+  },
+  {
     "id": "u20-worlds-2026",
     "competition": {
       "en": "IHF Women's Junior (U20) World Championship",
@@ -20,30 +35,13 @@
       "en": "IHF Women's Youth (U18) World Championship",
       "fr": "Championnat du monde jeunesse féminin (U18) de l'IHF"
     },
-    "matchup": { "home": "CAN", "away": null },
-    "dateLabel": { "en": "Summer 2026", "fr": "Été 2026" },
-    "venue": { "en": "Romania", "fr": "Roumanie" },
+    "matchup": { "home": "SWE", "away": "CAN" },
+    "dateLabel": { "en": "Jul 29 – Aug 9, 2026", "fr": "29 juil. – 9 août 2026" },
+    "venue": { "en": "Pitești, Romania", "fr": "Pitești, Roumanie" },
     "note": {
-      "en": "Canada's U18 women on the world stage",
-      "fr": "Les U18 canadiennes sur la scène mondiale"
+      "en": "Group E: Canada faces Sweden, Hungary and Tunisia",
+      "fr": "Groupe E : le Canada affronte la Suède, la Hongrie et la Tunisie"
     },
-    "href": "/news/u18-u20-women-qualify-2026-worlds",
-    "todo": "Confirm exact U18 Worlds dates and host city"
-  },
-  {
-    "id": "senior-nationals",
-    "competition": {
-      "en": "Canadian Senior National Championships",
-      "fr": "Championnats nationaux seniors canadiens"
-    },
-    "matchup": { "home": "CAN", "away": null },
-    "dateLabel": { "en": "2026 edition", "fr": "Édition 2026" },
-    "venue": { "en": "Tri Leisure Centre, Edmonton area", "fr": "Tri Leisure Centre, région d'Edmonton" },
-    "note": {
-      "en": "The pinnacle of the domestic season",
-      "fr": "Le sommet de la saison intérieure"
-    },
-    "href": "/competitions/national-championships",
-    "todo": "Confirm exact dates for the 2026 Senior Nationals"
+    "href": "/competitions/fixtures"
   }
 ]

@@ -8,11 +8,12 @@ import type { Locale } from "@/lib/locales";
 
 type Props = {
   squad: Squad;
+  teamSlug: string;
   locale: Locale;
   dict: Dictionary;
 };
 
-export default function SquadExplorer({ squad, locale, dict }: Props) {
+export default function SquadExplorer({ squad, teamSlug, locale, dict }: Props) {
   const [active, setActive] = useState<string | null>(null);
 
   const visibleGroups = active
@@ -68,6 +69,7 @@ export default function SquadExplorer({ squad, locale, dict }: Props) {
                   key={`${group.key}-${player.number}`}
                   player={player}
                   groupIndex={groupIndex}
+                  teamSlug={teamSlug}
                   locale={locale}
                   dict={dict}
                 />

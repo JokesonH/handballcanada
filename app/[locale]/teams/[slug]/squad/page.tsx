@@ -45,7 +45,12 @@ export default async function SquadPage({
       />
 
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <SquadExplorer squad={team.squad} locale={locale} dict={dict} />
+        <SquadExplorer
+          squad={team.squad}
+          teamSlug={team.slug}
+          locale={locale}
+          dict={dict}
+        />
 
         <p className="mt-12 border border-dashed border-white/20 p-5 text-sm text-hc-mist">
           {dict.teams.rosterTbd}

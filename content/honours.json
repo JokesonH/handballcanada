@@ -1,0 +1,36 @@
+{
+  "milestones": [
+    {
+      "year": "1962",
+      "title": { "en": "Federation founded", "fr": "Fondation de la fédération" },
+      "detail": {
+        "en": "The Canadian Team Handball Federation is established as the national governing body of the sport.",
+        "fr": "La Fédération canadienne de handball olympique est établie comme organisme national directeur du sport."
+      }
+    },
+    {
+      "year": "1976",
+      "title": { "en": "Olympic hosts", "fr": "Hôte olympique" },
+      "detail": {
+        "en": "Canada's men's and women's teams compete in the Olympic handball tournaments at the Montreal Games as the host nation.",
+        "fr": "Les équipes masculine et féminine du Canada participent aux tournois olympiques de handball des Jeux de Montréal à titre de pays hôte."
+      }
+    },
+    {
+      "year": "2026",
+      "title": { "en": "Double Worlds qualification", "fr": "Double qualification mondiale" },
+      "detail": {
+        "en": "The Women's U18 and U20 National Teams qualify for their IHF World Championships in the same summer — Romania and Jinzhong, China.",
+        "fr": "Les équipes nationales féminines U18 et U20 se qualifient pour leurs Championnats du monde IHF le même été — en Roumanie et à Jinzhong, en Chine."
+      }
+    }
+  ],
+  "rollOfHonour": {
+    "note": {
+      "en": "The complete roll of honour of Canadian Senior National Championship winners is being compiled from federation records and will be published here.",
+      "fr": "Le palmarès complet des champions des Championnats nationaux seniors canadiens est en cours de compilation à partir des archives de la fédération et sera publié ici."
+    },
+    "entries": []
+  },
+  "todo": "Fill rollOfHonour.entries with { year, men, women } championship winners from federation records; verify milestone details"
+}

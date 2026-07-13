@@ -1,23 +1,35 @@
 [
   {
     "id": "channel-highlights",
-    "title": { "en": "National team highlights", "fr": "Faits saillants des équipes nationales" },
+    "title": {
+      "en": "National team highlights",
+      "fr": "Faits saillants des équipes nationales"
+    },
     "duration": null,
     "url": "https://www.youtube.com/@handballcanada",
-    "todo": "Replace with a real YouTube video ID + thumbnail"
+    "todo": "Replace with a real YouTube video ID + thumbnail",
+    "youtubeId": null
   },
   {
     "id": "channel-beach",
-    "title": { "en": "Beach handball in Canada", "fr": "Le handball de plage au Canada" },
+    "title": {
+      "en": "Beach handball in Canada",
+      "fr": "Le handball de plage au Canada"
+    },
     "duration": null,
     "url": "https://www.youtube.com/@handballcanada",
-    "todo": "Replace with a real YouTube video ID + thumbnail"
+    "todo": "Replace with a real YouTube video ID + thumbnail",
+    "youtubeId": null
   },
   {
     "id": "channel-development",
-    "title": { "en": "Learn the game: development sessions", "fr": "Apprendre le jeu : séances de développement" },
+    "title": {
+      "en": "Learn the game: development sessions",
+      "fr": "Apprendre le jeu : séances de développement"
+    },
     "duration": null,
     "url": "https://www.youtube.com/@handballcanada",
-    "todo": "Replace with a real YouTube video ID + thumbnail"
+    "todo": "Replace with a real YouTube video ID + thumbnail",
+    "youtubeId": null
   }
 ]

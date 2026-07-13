@@ -1,5 +1,4 @@
 import SectionHeading from "@/components/SectionHeading";
-import site from "@/content/site.json";
 import type { VideoItem } from "@/lib/content";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/locales";
@@ -29,8 +28,8 @@ export default function VideoRail({ videos, locale, dict }: Props) {
         <SectionHeading
           kicker="TV"
           title={dict.home.watch}
-          href={site.youtubeUrl}
-          linkLabel={dict.home.moreVideos}
+          href={`/${locale}/videos`}
+          linkLabel={dict.common.discover}
         />
         <p className="-mt-4 mb-8 max-w-xl text-sm text-hc-mist lg:-mt-6">
           {dict.home.watchSub}

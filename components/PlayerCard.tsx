@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { SquadPlayer } from "@/lib/content";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/locales";
@@ -6,6 +7,7 @@ import type { Locale } from "@/lib/locales";
 type Props = {
   player: SquadPlayer;
   groupIndex: number;
+  teamSlug: string;
   locale: Locale;
   dict: Dictionary;
 };
@@ -32,7 +34,13 @@ function Jersey({ className }: { className?: string }) {
   );
 }
 
-export default function PlayerCard({ player, groupIndex, locale, dict }: Props) {
+export default function PlayerCard({
+  player,
+  groupIndex,
+  teamSlug,
+  locale,
+  dict,
+}: Props) {
   const named = player.name !== null;
 
   return (
@@ -72,8 +80,13 @@ export default function PlayerCard({ player, groupIndex, locale, dict }: Props) 
       <div className="relative">
         <p className="display-title text-sm text-hc-red-bright">#{player.number}</p>
         {named ? (
-          <h3 className="display-title mt-1 text-xl leading-tight text-white">
-            {player.name}
+          <h3 className="display-title mt-1 text-xl leading-tight text-white transition-colors group-hover:text-hc-red-bright">
+            <Link
+              href={`/${locale}/teams/${teamSlug}/players/${player.number}`}
+              className="after:absolute after:inset-0"
+            >
+              {player.name}
+            </Link>
           </h3>
         ) : (
           <h3 className="display-title mt-1 text-xl leading-tight text-hc-steel">

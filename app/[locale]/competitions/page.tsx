@@ -44,6 +44,12 @@ export default async function CompetitionsPage({
       subtitle: domestic.subtitle?.[locale],
       code: "DC",
     },
+    {
+      href: `/${locale}/competitions/honours`,
+      title: dict.honours.title,
+      subtitle: dict.honours.subtitle,
+      code: "62",
+    },
   ];
 
   return (
@@ -54,7 +60,7 @@ export default async function CompetitionsPage({
         ghost="Compete"
       />
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+        <div className="grid gap-4 sm:grid-cols-2 lg:gap-6">
           {cards.map((card) => (
             <Link
               key={card.href}

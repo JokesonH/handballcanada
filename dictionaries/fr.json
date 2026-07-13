@@ -21,7 +21,9 @@
     "menu": "Menu",
     "close": "Fermer",
     "nationalChampionships": "Championnats nationaux",
-    "domesticCompetitions": "Compétitions nationales"
+    "domesticCompetitions": "Compétitions nationales",
+    "allTeams": "Toutes les équipes",
+    "tv": "HC TV"
   },
   "home": {
     "tickerLabel": "En bref",
@@ -74,6 +76,11 @@
     "squad": "Effectif",
     "viewSquad": "Voir l'effectif complet",
     "backToTeam": "Retour à l'équipe",
+    "backToSquad": "Retour à l'effectif",
+    "height": "Taille",
+    "birthplace": "Lieu de naissance",
+    "caps": "Sélections",
+    "profile": "Profil de l'athlète",
     "tba": "À confirmer",
     "all": "Tout l'effectif",
     "season": "Saison",
@@ -111,6 +118,14 @@
     "host": "Hôte",
     "champions": "Champions"
   },
+  "honours": {
+    "title": "Palmarès",
+    "subtitle": "Les jalons du handball canadien — de 1962 à la scène mondiale.",
+    "milestones": "Jalons",
+    "rollOfHonour": "Tableau d'honneur",
+    "men": "Hommes",
+    "women": "Femmes"
+  },
   "footer": {
     "federationLinks": "La Fédération",
     "getInvolved": "Participez",
@@ -125,6 +140,12 @@
     "discover": "Découvrir",
     "todoContent": "Cette section est en cours de finalisation — contenu à venir.",
     "externalRegistration": "Ouvre la plateforme d'inscription de Handball Canada"
+  },
+  "search": {
+    "label": "Recherche",
+    "placeholder": "Rechercher des nouvelles, équipes, pages…",
+    "empty": "Aucun résultat pour",
+    "pages": "Pages"
   },
   "notFound": {
     "title": "Hors limites",

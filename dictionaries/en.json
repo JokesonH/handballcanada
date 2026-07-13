@@ -21,7 +21,9 @@
     "menu": "Menu",
     "close": "Close",
     "nationalChampionships": "National Championships",
-    "domesticCompetitions": "Domestic Competitions"
+    "domesticCompetitions": "Domestic Competitions",
+    "allTeams": "All teams",
+    "tv": "HC TV"
   },
   "home": {
     "tickerLabel": "Latest",
@@ -74,6 +76,11 @@
     "squad": "Squad",
     "viewSquad": "View full squad",
     "backToTeam": "Back to team",
+    "backToSquad": "Back to squad",
+    "height": "Height",
+    "birthplace": "Birthplace",
+    "caps": "Caps",
+    "profile": "Player profile",
     "tba": "To be announced",
     "all": "All players",
     "season": "Season",
@@ -111,6 +118,14 @@
     "host": "Host",
     "champions": "Champions"
   },
+  "honours": {
+    "title": "Honours",
+    "subtitle": "Milestones of Canadian handball — from 1962 to the world stage.",
+    "milestones": "Milestones",
+    "rollOfHonour": "Roll of honour",
+    "men": "Men",
+    "women": "Women"
+  },
   "footer": {
     "federationLinks": "The Federation",
     "getInvolved": "Get Involved",
@@ -125,6 +140,12 @@
     "discover": "Discover",
     "todoContent": "This section is being finalized — content coming soon.",
     "externalRegistration": "Opens the Handball Canada registration platform"
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search news, teams, pages…",
+    "empty": "No results for",
+    "pages": "Pages"
   },
   "notFound": {
     "title": "Out of bounds",

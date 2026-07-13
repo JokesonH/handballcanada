@@ -82,6 +82,8 @@ export type VideoItem = {
   title: Localized;
   duration: string | null;
   url: string;
+  /** When set, the video hub renders an embedded YouTube player */
+  youtubeId?: string | null;
   todo?: string;
 };
 
@@ -167,6 +169,19 @@ export function getNextMatch(): MatchItem | undefined {
       match.startsAt !== null &&
       new Date(match.startsAt).getTime() > now
   );
+}
+
+export type Honours = {
+  milestones: { year: string; title: Localized; detail: Localized }[];
+  rollOfHonour: {
+    note: Localized;
+    entries: { year: string; men: string; women: string }[];
+  };
+  todo?: string;
+};
+
+export function getHonours(): Honours {
+  return readJson<Honours>("honours.json");
 }
 
 export type PageSection = {

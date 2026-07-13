@@ -130,6 +130,12 @@ export default function Header({ locale, dict, teamLinks, searchEntries }: Props
           <p className="kicker text-[0.6rem] text-hc-steel">{dict.meta.official}</p>
           <div className="flex items-center gap-6">
             <Link
+              href={`/${locale}/members`}
+              className="kicker text-[0.6rem] text-hc-steel transition-colors hover:text-white"
+            >
+              {dict.nav.findAClub}
+            </Link>
+            <Link
               href={`/${locale}/registration`}
               className="kicker text-[0.6rem] text-hc-steel transition-colors hover:text-white"
             >
@@ -168,14 +174,14 @@ export default function Header({ locale, dict, teamLinks, searchEntries }: Props
           </span>
         </Link>
 
-        <nav className="ml-4 hidden flex-1 items-center gap-1 lg:flex" aria-label="Main">
+        <nav className="ml-2 hidden flex-1 items-center xl:flex" aria-label="Main">
           {items.map((item) => {
             const active = pathname.startsWith(item.href);
             return (
               <div key={item.href} className="group relative">
                 <Link
                   href={item.href}
-                  className={`kicker relative flex items-center gap-1.5 px-3 py-2 text-[0.8rem] transition-colors ${
+                  className={`font-display relative flex items-center gap-1.5 whitespace-nowrap px-2.5 py-2 text-[0.78rem] font-medium uppercase tracking-[0.14em] transition-colors ${
                     active ? "text-white" : "text-hc-mist hover:text-white"
                   }`}
                 >
@@ -189,7 +195,7 @@ export default function Header({ locale, dict, teamLinks, searchEntries }: Props
                     </span>
                   )}
                   <span
-                    className={`absolute inset-x-3 bottom-0 h-0.5 ${
+                    className={`absolute inset-x-2.5 bottom-0 h-0.5 ${
                       active ? "bg-hc-red" : "bg-transparent"
                     }`}
                   />
@@ -217,7 +223,7 @@ export default function Header({ locale, dict, teamLinks, searchEntries }: Props
           })}
         </nav>
 
-        <div className="ml-auto hidden items-center gap-3 lg:flex">
+        <div className="ml-auto hidden items-center gap-3 xl:flex">
           <button
             type="button"
             onClick={() => setSearchOpen(true)}
@@ -228,27 +234,21 @@ export default function Header({ locale, dict, teamLinks, searchEntries }: Props
             <SearchIcon />
           </button>
           <Link
-            href={`/${locale}/members`}
-            className="kicker border border-white/25 px-4 py-2.5 text-[0.7rem] text-white transition-colors hover:border-white hover:bg-white hover:text-hc-night"
-          >
-            {dict.nav.findAClub}
-          </Link>
-          <Link
             href={`/${locale}/registration`}
-            className="kicker bg-hc-red px-4 py-2.5 text-[0.7rem] text-white transition-colors hover:bg-hc-red-dark"
+            className="kicker whitespace-nowrap bg-hc-red px-4 py-2.5 text-[0.7rem] text-white transition-colors hover:bg-hc-red-dark"
           >
             {dict.nav.register}
           </Link>
           <Link
             href={switchLocalePath(pathname, otherLocale)}
-            className="kicker ml-2 border-l border-white/15 py-1 pl-4 text-[0.7rem] text-hc-steel transition-colors hover:text-white"
+            className="kicker ml-1 border-l border-white/15 py-1 pl-3.5 text-[0.7rem] text-hc-steel transition-colors hover:text-white"
             lang={otherLocale}
           >
             {otherLocale.toUpperCase()}
           </Link>
         </div>
 
-        <div className="ml-auto flex items-center gap-2 lg:hidden">
+        <div className="ml-auto flex items-center gap-2 xl:hidden">
           <button
             type="button"
             onClick={() => setSearchOpen(true)}
@@ -281,7 +281,7 @@ export default function Header({ locale, dict, teamLinks, searchEntries }: Props
 
       {/* Mobile menu */}
       {open && (
-        <div className="fixed inset-x-0 top-16 bottom-0 z-40 overflow-y-auto bg-hc-night lg:hidden">
+        <div className="fixed inset-x-0 top-16 bottom-0 z-40 overflow-y-auto bg-hc-night lg:top-[6.75rem] xl:hidden">
           <nav className="flex flex-col px-6 py-8" aria-label="Mobile">
             {items.map((item) => (
               <div key={item.href} className="border-b border-white/10">
